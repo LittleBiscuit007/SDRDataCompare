@@ -1,0 +1,951 @@
+{
+    "P12V": [
+        "Sensor ID:P12V (0x17)", 
+        "Entity ID:7.0 (System Board)", 
+        "Sensor Type (Threshold):Voltage (0x02)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "P12V_AUX": [
+        "Sensor ID:P12V_AUX (0xc)", 
+        "Entity ID:7.0 (System Board)", 
+        "Sensor Type (Threshold):Voltage (0x02)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "PSU0_POUT": [
+        "Sensor ID:PSU0_POUT (0x1f)", 
+        "Entity ID:10.0 (Power Supply)", 
+        "Sensor Type (Threshold):Other (0x0b)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "FAN4_Status": [
+        "Sensor ID:FAN4_Status (0x64)", 
+        "Entity ID:29.0 (Fan Device)", 
+        "Sensor Type (Discrete):Fan (0x04)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "DIMM_D2_CPU2": [
+        "Sensor ID:DIMM_D2_CPU2 (0x7)", 
+        "Entity ID:32.0 (Memory Device)", 
+        "Sensor Type (Threshold):Temperature (0x01)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "PSU0_IIN": [
+        "Sensor ID:PSU0_IIN (0x1c)", 
+        "Entity ID:10.0 (Power Supply)", 
+        "Sensor Type (Threshold):Current (0x03)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "FAN5_Status": [
+        "Sensor ID:FAN5_Status (0x65)", 
+        "Entity ID:29.0 (Fan Device)", 
+        "Sensor Type (Discrete):Fan (0x04)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "P12V_STBY": [
+        "Sensor ID:P12V_STBY (0x16)", 
+        "Entity ID:7.0 (System Board)", 
+        "Sensor Type (Threshold):Voltage (0x02)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "PSU0_PIN": [
+        "Sensor ID:PSU0_PIN (0x1e)", 
+        "Entity ID:10.0 (Power Supply)", 
+        "Sensor Type (Threshold):Other (0x0b)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "DIMM_D1_CPU1": [
+        "Sensor ID:DIMM_D1_CPU1 (0x8)", 
+        "Entity ID:32.0 (Memory Device)", 
+        "Sensor Type (Threshold):Temperature (0x01)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "PVCCIO_CPU2": [
+        "Sensor ID:PVCCIO_CPU2 (0x15)", 
+        "Entity ID:7.0 (System Board)", 
+        "Sensor Type (Threshold):Voltage (0x02)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "Die_CPU2": [
+        "Sensor ID:Die_CPU2 (0x4)", 
+        "Entity ID:3.0 (Processor)", 
+        "Sensor Type (Threshold):Temperature (0x01)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "Die_CPU1": [
+        "Sensor ID:Die_CPU1 (0x3)", 
+        "Entity ID:3.0 (Processor)", 
+        "Sensor Type (Threshold):Temperature (0x01)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "PVCCIO_CPU1": [
+        "Sensor ID:PVCCIO_CPU1 (0x14)", 
+        "Entity ID:7.0 (System Board)", 
+        "Sensor Type (Threshold):Voltage (0x02)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "PSU0_Temp": [
+        "Sensor ID:PSU0_Temp (0xa)", 
+        "Entity ID:10.0 (Power Supply)", 
+        "Sensor Type (Threshold):Temperature (0x01)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU1_DIMME2": [
+        "Sensor ID:CPU1_DIMME2 (0x4b)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU2_DIMMC1": [
+        "Sensor ID:CPU2_DIMMC1 (0x52)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU2_DIMMA1": [
+        "Sensor ID:CPU2_DIMMA1 (0x4e)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU2_DIMMA2": [
+        "Sensor ID:CPU2_DIMMA2 (0x4f)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "PSU1_IIN": [
+        "Sensor ID:PSU1_IIN (0x22)", 
+        "Entity ID:10.0 (Power Supply)", 
+        "Sensor Type (Threshold):Current (0x03)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU2_DIMME1": [
+        "Sensor ID:CPU2_DIMME1 (0x56)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU2_DIMME2": [
+        "Sensor ID:CPU2_DIMME2 (0x57)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "inlet": [
+        "Sensor ID:inlet (0x1)", 
+        "Entity ID:55.0 (Air Inlet)", 
+        "Sensor Type (Threshold):Temperature (0x01)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "60.000", 
+            "70.000", 
+            "na"
+        ]
+    ], 
+    "CPU0_VR_Temp": [
+        "Sensor ID:CPU0_VR_Temp (0x5)", 
+        "Entity ID:3.0 (Processor)", 
+        "Sensor Type (Threshold):Temperature (0x01)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU1_DIMMC2": [
+        "Sensor ID:CPU1_DIMMC2 (0x47)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU1_DIMMC1": [
+        "Sensor ID:CPU1_DIMMC1 (0x46)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "FAN2_Status": [
+        "Sensor ID:FAN2_Status (0x62)", 
+        "Entity ID:29.0 (Fan Device)", 
+        "Sensor Type (Discrete):Fan (0x04)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU1_DIMMA1": [
+        "Sensor ID:CPU1_DIMMA1 (0x42)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU1_DIMME1": [
+        "Sensor ID:CPU1_DIMME1 (0x4a)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU1_DIMMA2": [
+        "Sensor ID:CPU1_DIMMA2 (0x43)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "PSU1_IOUT": [
+        "Sensor ID:PSU1_IOUT (0x23)", 
+        "Entity ID:10.0 (Power Supply)", 
+        "Sensor Type (Threshold):Current (0x03)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "PSU1_VIN": [
+        "Sensor ID:PSU1_VIN (0x20)", 
+        "Entity ID:10.0 (Power Supply)", 
+        "Sensor Type (Threshold):Voltage (0x02)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "PSU1_VOUT": [
+        "Sensor ID:PSU1_VOUT (0x21)", 
+        "Entity ID:10.0 (Power Supply)", 
+        "Sensor Type (Threshold):Voltage (0x02)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU2_DIMMB1": [
+        "Sensor ID:CPU2_DIMMB1 (0x50)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "PSU0_IOUT": [
+        "Sensor ID:PSU0_IOUT (0x1d)", 
+        "Entity ID:10.0 (Power Supply)", 
+        "Sensor Type (Threshold):Current (0x03)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU2_DIMMC2": [
+        "Sensor ID:CPU2_DIMMC2 (0x53)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU2_DIMMD2": [
+        "Sensor ID:CPU2_DIMMD2 (0x55)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "P1V15_BMC": [
+        "Sensor ID:P1V15_BMC (0x13)", 
+        "Entity ID:7.0 (System Board)", 
+        "Sensor Type (Threshold):Voltage (0x02)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "PSU0_VIN": [
+        "Sensor ID:PSU0_VIN (0x1a)", 
+        "Entity ID:10.0 (Power Supply)", 
+        "Sensor Type (Threshold):Voltage (0x02)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "FAN3_Status": [
+        "Sensor ID:FAN3_Status (0x63)", 
+        "Entity ID:29.0 (Fan Device)", 
+        "Sensor Type (Discrete):Fan (0x04)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "FAN0_Status": [
+        "Sensor ID:FAN0_Status (0x60)", 
+        "Entity ID:29.0 (Fan Device)", 
+        "Sensor Type (Discrete):Fan (0x04)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "PCH_Temp": [
+        "Sensor ID:PCH_Temp (0x9)", 
+        "Entity ID:3.0 (Processor)", 
+        "Sensor Type (Threshold):Temperature (0x01)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "P1V8_PCH_AUX": [
+        "Sensor ID:P1V8_PCH_AUX (0xf)", 
+        "Entity ID:7.0 (System Board)", 
+        "Sensor Type (Threshold):Voltage (0x02)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "PVNN_PCH_AUX": [
+        "Sensor ID:PVNN_PCH_AUX (0x10)", 
+        "Entity ID:7.0 (System Board)", 
+        "Sensor Type (Threshold):Voltage (0x02)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU2_DIMMB2": [
+        "Sensor ID:CPU2_DIMMB2 (0x51)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "FAN1_Status": [
+        "Sensor ID:FAN1_Status (0x61)", 
+        "Entity ID:29.0 (Fan Device)", 
+        "Sensor Type (Discrete):Fan (0x04)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "outlet": [
+        "Sensor ID:outlet (0x2)", 
+        "Entity ID:64.0 (Air Inlet)", 
+        "Sensor Type (Threshold):Temperature (0x01)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "60.000", 
+            "70.000", 
+            "na"
+        ]
+    ], 
+    "CPU2_DIMMF1": [
+        "Sensor ID:CPU2_DIMMF1 (0x58)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "P5V": [
+        "Sensor ID:P5V (0x18)", 
+        "Entity ID:7.0 (System Board)", 
+        "Sensor Type (Threshold):Voltage (0x02)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "PSU1_Temp": [
+        "Sensor ID:PSU1_Temp (0xb)", 
+        "Entity ID:10.0 (Power Supply)", 
+        "Sensor Type (Threshold):Temperature (0x01)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU1_DIMMD2": [
+        "Sensor ID:CPU1_DIMMD2 (0x49)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "P3V3_AUX": [
+        "Sensor ID:P3V3_AUX (0xe)", 
+        "Entity ID:7.0 (System Board)", 
+        "Sensor Type (Threshold):Voltage (0x02)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU1_DIMMD1": [
+        "Sensor ID:CPU1_DIMMD1 (0x48)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "P3V3": [
+        "Sensor ID:P3V3 (0x19)", 
+        "Entity ID:7.0 (System Board)", 
+        "Sensor Type (Threshold):Voltage (0x02)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU2_DIMMD1": [
+        "Sensor ID:CPU2_DIMMD1 (0x54)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "PSU0_VOUT": [
+        "Sensor ID:PSU0_VOUT (0x1b)", 
+        "Entity ID:10.0 (Power Supply)", 
+        "Sensor Type (Threshold):Voltage (0x02)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU1_DIMMF1": [
+        "Sensor ID:CPU1_DIMMF1 (0x4c)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU1_DIMMF2": [
+        "Sensor ID:CPU1_DIMMF2 (0x4d)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU1_VR_Temp": [
+        "Sensor ID:CPU1_VR_Temp (0x6)", 
+        "Entity ID:3.0 (Processor)", 
+        "Sensor Type (Threshold):Temperature (0x01)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU1_DIMMB1": [
+        "Sensor ID:CPU1_DIMMB1 (0x44)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "P1V05_PCH_AUX": [
+        "Sensor ID:P1V05_PCH_AUX (0x11)", 
+        "Entity ID:7.0 (System Board)", 
+        "Sensor Type (Threshold):Voltage (0x02)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU2_DIMMF2": [
+        "Sensor ID:CPU2_DIMMF2 (0x59)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "PSU1_PIN": [
+        "Sensor ID:PSU1_PIN (0x24)", 
+        "Entity ID:10.0 (Power Supply)", 
+        "Sensor Type (Threshold):Other (0x0b)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "fan1": [
+        "Sensor ID:fan1 (0x26)", 
+        "Entity ID:29.0 (Fan Device)", 
+        "Sensor Type (Threshold):Fan (0x04)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "CPU1_DIMMB2": [
+        "Sensor ID:CPU1_DIMMB2 (0x45)", 
+        "Entity ID:32.1 (Memory Device)", 
+        "Sensor Type (Discrete):Memory (0x0c)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "fan3": [
+        "Sensor ID:fan3 (0x28)", 
+        "Entity ID:29.0 (Fan Device)", 
+        "Sensor Type (Threshold):Fan (0x04)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "fan2": [
+        "Sensor ID:fan2 (0x27)", 
+        "Entity ID:29.0 (Fan Device)", 
+        "Sensor Type (Threshold):Fan (0x04)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "fan5": [
+        "Sensor ID:fan5 (0x2a)", 
+        "Entity ID:29.0 (Fan Device)", 
+        "Sensor Type (Threshold):Fan (0x04)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "fan4": [
+        "Sensor ID:fan4 (0x29)", 
+        "Entity ID:29.0 (Fan Device)", 
+        "Sensor Type (Threshold):Fan (0x04)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "fan6": [
+        "Sensor ID:fan6 (0x2b)", 
+        "Entity ID:29.0 (Fan Device)", 
+        "Sensor Type (Threshold):Fan (0x04)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "P5V_AUX": [
+        "Sensor ID:P5V_AUX (0xd)", 
+        "Entity ID:7.0 (System Board)", 
+        "Sensor Type (Threshold):Voltage (0x02)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "P1V2_DDR_BMC": [
+        "Sensor ID:P1V2_DDR_BMC (0x12)", 
+        "Entity ID:7.0 (System Board)", 
+        "Sensor Type (Threshold):Voltage (0x02)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ], 
+    "PSU1_POUT": [
+        "Sensor ID:PSU1_POUT (0x25)", 
+        "Entity ID:10.0 (Power Supply)", 
+        "Sensor Type (Threshold):Other (0x0b)", 
+        [
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na", 
+            "na"
+        ]
+    ]
+}
