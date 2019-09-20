@@ -37,6 +37,7 @@ def get_spec_data():
         # dict, key: sensor name, values: [sensor number, entity id, sensor type]
         # entity id: Hex data changed to Dec data
         spec_sdr[row[1].value] = [row[0].value, eval("0x" + row[5].value[:-1]), row[3].value]
+
         # dict, key: sensor name, values: threshold=[LC, LNC, UNC, UC]
         # X/None changed to na
         for i in range(8, 12):
@@ -57,9 +58,9 @@ def get_sdr():
     sdr_list = []
     sdr_valid_list = []
     # use ipmi command get sdr, save as file
-    sdr_ipmi_command = "ipmitool -I lanplus -H " + conf.BMCIP + " -U " + conf.UserName +" -P " + conf.Password + \
-                          " -v sdr list > ../" + conf.SdrFileName
-    os.system(sdr_ipmi_command)
+    # sdr_ipmi_command = "ipmitool -I lanplus -H " + conf.BMCIP + " -U " + conf.UserName + " -P " + conf.Password + \
+    #                    " -v sdr list > ../" + conf.SdrFileName
+    # os.system(sdr_ipmi_command)
     with open("../" + conf.SdrFileName, "r") as sdr_read_file:
         while True:
             data = sdr_read_file.readline()
@@ -120,9 +121,9 @@ def get_sensor():
     """
     print "Start get ipmi sensor data..."
     # get sensor data save as file
-    sensor_ipmi_command = "ipmitool -I lanplus -H " + conf.BMCIP + " -U " + conf.UserName +" -P " + conf.Password + \
-                          " sensor list all  > ../" + conf.SensorFileName
-    os.system(sensor_ipmi_command)
+    # sensor_ipmi_command = "ipmitool -I lanplus -H " + conf.BMCIP + " -U " + conf.UserName +" -P " + conf.Password + \
+    #                       " sensor list all  > ../" + conf.SensorFileName
+    # os.system(sensor_ipmi_command)
     sensor_list = []
     sensor_valid_list = []
     # read sensor file get data save into list

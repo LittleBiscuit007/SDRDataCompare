@@ -1,6 +1,24 @@
 from logger_sdr_sensor import logger
 
 
+def fru_compare(ipmi_fru_each, spec_fru_each, sensor_name):
+    """
+    exec sensor number/entity id/sensor type compare
+    :return:
+    """
+    fru_name_list = ["sensor number", "entity id", "sensor type"]
+    for i in range(1, 4):
+        if i == 2:
+            ipmi_fru_each[i] = eval(ipmi_fru_each[i])
+        if ipmi_fru_each[i] == spec_fru_each[i-1]:
+            logger.info(sensor_name + "'s " + str(fru_name_list[i-1]) + " is pass.")
+        else:
+            # print i, ipmi_fru_each[i], spec_fru_each[i-1], sensor_name, type(ipmi_fru_each[i]), \
+            #     type(spec_fru_each[i-1])
+            logger.error(str(ipmi_fru_each[i]) + " and " + str(spec_fru_each[i-1]) + " are different.\n\
+                                " + sensor_name + "'s " + fru_name_list[i-1] + " is fail.")
+
+
 def sdr_compare(spec_sdr, ipmi_sdr):
     """
     exec spec/ipmi sdr data compare
@@ -23,26 +41,7 @@ def sdr_compare(spec_sdr, ipmi_sdr):
             continue
         else:
             logger.info(sensor_name + "'s field ( Sensor name ): pass.")
-
-        # compare sensor number
-        if ipmi_fru_each[1] == spec_fru_each[0]:
-            logger.info(sensor_name + "'s sensor number is pass.")
-        else:
-            logger.error(ipmi_fru_each[1] + " and " + spec_fru_each[0] + " are different.\n\
-                        " + sensor_name + "'s sensor number is fail.")
-
-        # compare entity id
-        if eval(ipmi_fru_each[2]) == spec_fru_each[1]:
-            logger.info(sensor_name + "'s entity id is pass.")
-        else:
-            logger.error(ipmi_fru_each[2] + " and " + str(spec_fru_each[1]) + " are different.\n\
-                        " + sensor_name + "'s entity id is fail.")
-
-        # compare sensor type
-        if ipmi_fru_each[3] == spec_fru_each[2]:
-            logger.info(sensor_name + "'s sensor type is pass.\n")
-        else:
-            logger.error(ipmi_fru_each[3] + " and " + spec_fru_each[2] + " are different.\n\
-                        " + sensor_name + "'s sensor type is fail.\n")
+        # fru compare
+        fru_compare(ipmi_fru_each, spec_fru_each, sensor_name)
 
 
