@@ -9,8 +9,20 @@ import os
 # string = "(0x01)"
 # print string[3:-1]
 
-hexdata = "37h"
-hexString = "0x" + hexdata[:-1]
+# hexdata = "37h"
+# hexString = "0x" + hexdata[:-1]
+#
+# # print(hexString)
+# print eval(hexString)
+#
+# print eval("55.0") == eval(hexString)
 
-# print(hexString)
-print eval(hexString)
+asc = "b0"
+print asc.islower()
+
+if asc.islower():
+    asc = asc.upper()
+
+print asc
+
+

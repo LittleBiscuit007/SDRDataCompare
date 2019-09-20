@@ -94,7 +94,12 @@ def get_sdr():
             # sensor type.Temperature changed to Temp
             if sdr_value[0] == "Temperature":
                 sdr_value[0] = "Temp"
-            sub_ipmi_sdr.append(sdr_value[0] + " (" + sdr_value[1][3:-1] + ")")
+            # sensor type.low char changed to upper char
+            sensor_type_id = sdr_value[1][3:-1]
+            if sensor_type_id.islower():
+                sensor_type_id = sensor_type_id.upper()
+
+            sub_ipmi_sdr.append(sdr_value[0] + " (" + sensor_type_id + "h)")
             count = 0
             ipmi_sdr.append(sub_ipmi_sdr)
             sub_ipmi_sdr = []
@@ -146,10 +151,10 @@ if __name__ == '__main__':
     sensor.sensor_compare(spec_sensor, ipmi_sensor)
 
     ipmi_sdr = get_sdr()
+    print 'spec_sdr: ', spec_sdr
+    print 'ipmi_sdr: ', ipmi_sdr
     # send sdr to sdr.py, exec sdr data compare
     sdr.sdr_compare(spec_sdr, ipmi_sdr)
 
     # print 'spec_sensor: ', spec_sensor
     # print 'ipmi_sensor: ', ipmi_sensor
-    # print 'spec_sdr: ', spec_sdr
-    # print 'ipmi_sdr: ', ipmi_sdr
