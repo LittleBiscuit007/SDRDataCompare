@@ -147,14 +147,15 @@ if __name__ == '__main__':
     spec_sensor, spec_sdr = get_spec_data()
 
     ipmi_sensor = get_sensor()
+    # print 'spec_sensor: ', spec_sensor
+    # print 'ipmi_sensor: ', ipmi_sensor
     # send sensor data to sensor.py, exec sensor data compare
     sensor.sensor_compare(spec_sensor, ipmi_sensor)
 
     ipmi_sdr = get_sdr()
-    print 'spec_sdr: ', spec_sdr
-    print 'ipmi_sdr: ', ipmi_sdr
+    # print 'spec_sdr: ', spec_sdr
+    # print 'ipmi_sdr: ', ipmi_sdr
     # send sdr to sdr.py, exec sdr data compare
     sdr.sdr_compare(spec_sdr, ipmi_sdr)
 
-    # print 'spec_sensor: ', spec_sensor
-    # print 'ipmi_sensor: ', ipmi_sensor
+

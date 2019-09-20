@@ -9,6 +9,7 @@ def sdr_compare(spec_sdr, ipmi_sdr):
     :return:
     """
     # read ipmi list
+    logger.info("=" * 50)
     for ipmi_fru_each in ipmi_sdr:
         sensor_name = ipmi_fru_each[0]
         spec_fru_each = []
@@ -17,7 +18,7 @@ def sdr_compare(spec_sdr, ipmi_sdr):
             spec_fru_each = spec_sdr[sensor_name]
         except KeyError as e:
             logger.error("spec don't have " + sensor_name + " sensor_name. \n\
-                        sensor number/entity id/sensor type not compare.\n\n")
+                        sensor number/entity id/sensor type not compare.\n")
             continue
         else:
             logger.info(sensor_name + "'s field ( Sensor name ): pass.")
@@ -38,9 +39,9 @@ def sdr_compare(spec_sdr, ipmi_sdr):
 
         # compare sensor type
         if ipmi_fru_each[3] == spec_fru_each[2]:
-            logger.info(sensor_name + "'s sensor type is pass.")
+            logger.info(sensor_name + "'s sensor type is pass.\n")
         else:
             logger.error(ipmi_fru_each[3] + " and " + spec_fru_each[2] + " are different.\n\
-                        " + sensor_name + "'s sensor type is fail.\n\n")
+                        " + sensor_name + "'s sensor type is fail.\n")
 
 

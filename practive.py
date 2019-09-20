@@ -1,4 +1,5 @@
 import os
+import math
 
 
 # a = os.system("ls")
@@ -17,12 +18,22 @@ import os
 #
 # print eval("55.0") == eval(hexString)
 
-asc = "b0"
-print asc.islower()
+# asc = "b0"
+# print asc.islower()
+#
+# if asc.islower():
+#     asc = asc.upper()
+#
+# print asc
 
-if asc.islower():
-    asc = asc.upper()
+ipmi = eval("50")
+spec = eval("49.00")
 
-print asc
+rate = math.fabs(ipmi-spec) / spec
+
+print rate
+
+# if eval(ipmi) == eval(spec):
+#     print "pass"
 
 
