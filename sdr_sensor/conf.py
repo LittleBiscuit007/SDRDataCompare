@@ -1,9 +1,13 @@
-BMCIP = "10.245.45.169"
+BMCIP = "10.245.36.177"
 UserName = "root"
 Password = "0penBmc"
 
-SplitString = "Sensor ID              : CPU1_DIMMA1 (0x42)\n"
+# Threshold Sensor and Discrete Sensor split, use the last Threshold Sensor
+SplitString = "Sensor ID              : Fan6_Speed (0x55)\n"
 
-SpecName = None
+SpecFileName = "PF05008957_HR650X+_BMC_BMC SDR Spec_V0.2.xlsx"
 Start_SpecFile = "A3"
-End_SpecFile = "M49"
+End_SpecFile = "M77"
+
+SdrFileName = "177_sdr.txt"
+SensorFileName = "177_sensor.txt"

@@ -1,3 +1,5 @@
+import os
+
 import sdr
 import sensor
 import conf
@@ -18,10 +20,11 @@ def get_spec_data():
     get spec_sdr and spec_sensor info
     :return:
     """
+    print "Start get spec data..."
     spec_sdr = {}
     spec_sensor = {}
     # get excel workbook
-    workbook = openpyxl.load_workbook("../PF05008957_HR650X+_BMC_BMC SDR Spec_V0.01.xlsx")
+    workbook = openpyxl.load_workbook("../" + conf.SpecFileName)
     # get valid workobject
     ws = workbook.get_sheet_by_name("Threshold Sensors")
     # get Spec data object
@@ -49,12 +52,15 @@ def get_sdr():
     :return:
     [[sensor name, sensor number, entity id, sensor type], ....]
     """
+    print "Start get ipmi sdr data..."
     # get sdr data
     sdr_list = []
     sdr_valid_list = []
     # use ipmi command get sdr, save as file
-    # sdr_file = os.system("ipmitool -I lanplus -H 10.245.45.169 -U root -P 0penBmc -v sdr list > 169_sdr.txt")
-    with open("../169_sdr.txt", "r") as sdr_read_file:
+    sdr_ipmi_command = "ipmitool -I lanplus -H " + conf.BMCIP + " -U " + conf.UserName +" -P " + conf.Password + \
+                          " -v sdr list > ../" + conf.SdrFileName
+    os.system(sdr_ipmi_command)
+    with open("../" + conf.SdrFileName, "r") as sdr_read_file:
         while True:
             data = sdr_read_file.readline()
             # print data.__len__()
@@ -112,15 +118,16 @@ def get_sensor():
     sensor_ipmi_get
     :return:
     """
+    print "Start get ipmi sensor data..."
     # get sensor data save as file
-    # sensor_ipmi_command = "ipmitool -I lanplus -H " + conf.BMCIP + "-U " + conf.UserName +" -P " + conf.Password + \
-    #                       " sensor list all  > 169_sensor.txt"
-    # sensor_file = os.system(sensor_ipmi_command)
+    sensor_ipmi_command = "ipmitool -I lanplus -H " + conf.BMCIP + " -U " + conf.UserName +" -P " + conf.Password + \
+                          " sensor list all  > ../" + conf.SensorFileName
+    os.system(sensor_ipmi_command)
     sensor_list = []
     sensor_valid_list = []
     # read sensor file get data save into list
     # [[sensor name, LC, LNC, UNC, UC], ....]
-    with open("../169_sensor.txt", "r") as sensor_read_file:
+    with open("../" + conf.SensorFileName, "r") as sensor_read_file:
         while True:
             data = sensor_read_file.readline()
             if data:

@@ -7,14 +7,30 @@ def diff_rate(ipmi, spec):
     return a diff_rate between ipmi_threshold and spec_threshold
     :return:
     """
+    # print ipmi, spec, type(str(spec))
     ipmi_int = eval(ipmi)
-    spec_int = eval(spec)
+    spec_int = eval(str(spec))
     ipmi_spec_diff_rate = math.fabs(ipmi_int-spec_int) / spec_int
     return ipmi_spec_diff_rate
 
 
-def threshold_compare():
-    pass
+def threshold_compare(ipmi_threshold_each, spec_threshold_each, sensor_name):
+    """
+    compare threshold
+    :return:
+    """
+    threshold_name_list = ["LC", "LNC", "UNC", "UC"]
+    for i in range(1, 5):
+        if ipmi_threshold_each[i] == spec_threshold_each[i-1]:
+            logger.info(sensor_name + "'s " + threshold_name_list[i-1] + " is pass.")
+        elif ipmi_threshold_each[i] == "na" or spec_threshold_each[i-1] == "na":
+            logger.error(sensor_name + "'s " + threshold_name_list[i-1] + " is fail.")
+        else:
+            ipmi_spec_diff_rate = diff_rate(ipmi_threshold_each[i], spec_threshold_each[i-1])
+            if ipmi_spec_diff_rate <= 0.01:
+                logger.info(sensor_name + "'s " + threshold_name_list[i-1] + " is pass.")
+            else:
+                logger.error(sensor_name + "'s " + threshold_name_list[i-1] + " is fail.")
 
 
 def sensor_compare(spec_sensor, ipmi_sensor):
@@ -24,6 +40,7 @@ def sensor_compare(spec_sensor, ipmi_sensor):
     :param ipmi_sensor: list, [sensor name, LC, LNC, UNC, UC]
     :return:
     """
+    print "Start compare spec/ipmi sensor data..."
     # read ipmi list
     for ipmi_threshold_each in ipmi_sensor:
         # use ipmi.sensor name get values in spec
@@ -37,40 +54,7 @@ def sensor_compare(spec_sensor, ipmi_sensor):
             continue
         else:
             logger.info(sensor_name + "'s field ( Sensor name ): pass.")
-        # compare LC
-        if ipmi_threshold_each[1] == spec_threshold_each[0]:
-            logger.info(sensor_name + "'s " + "LC is pass.")
-        else:
-            ipmi_spec_diff_rate = diff_rate(ipmi_threshold_each[1], spec_threshold_each[0])
-            if ipmi_spec_diff_rate <= 0.01:
-                logger.info(sensor_name + "'s " + "LC is pass.")
-            else:
-                logger.error(sensor_name + "'s " + "LC is fail.")
-        # compare LNC
-        if ipmi_threshold_each[2] == spec_threshold_each[1]:
-            logger.info(sensor_name + "'s " + "LNC is pass.")
-        else:
-            ipmi_spec_diff_rate = diff_rate(ipmi_threshold_each[2], spec_threshold_each[1])
-            if ipmi_spec_diff_rate <= 0.01:
-                logger.info(sensor_name + "'s " + "LNC is pass.")
-            else:
-                logger.error(sensor_name + "'s " + "LNC is fail.")
-        # compare UNC
-        if ipmi_threshold_each[3] == spec_threshold_each[2]:
-            logger.info(sensor_name + "'s " + "UC is pass.")
-        else:
-            ipmi_spec_diff_rate = diff_rate(ipmi_threshold_each[3], spec_threshold_each[2])
-            if ipmi_spec_diff_rate <= 0.01:
-                logger.info(sensor_name + "'s " + "UC is pass.")
-            else:
-                logger.error(sensor_name + "'s " + "UC is fail.")
-        # compare UC
-        if ipmi_threshold_each[4] == spec_threshold_each[3]:
-            logger.info(sensor_name + "'s " + "UNC is pass.\n")
-        else:
-            ipmi_spec_diff_rate = diff_rate(ipmi_threshold_each[4], spec_threshold_each[3])
-            if ipmi_spec_diff_rate <= 0.01:
-                logger.info(sensor_name + "'s " + "UNC is pass.\n")
-            else:
-                logger.error(sensor_name + "'s " + "UNC is fail.\n")
+
+        # compare threshold
+        threshold_compare(ipmi_threshold_each, spec_threshold_each, sensor_name)
 

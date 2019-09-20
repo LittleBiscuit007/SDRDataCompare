@@ -8,6 +8,7 @@ def sdr_compare(spec_sdr, ipmi_sdr):
     :param ipmi_sdr: list, [sensor name/sensor number/entity id/sensor type]
     :return:
     """
+    print "Start compare spec/ipmi sdr data..."
     # read ipmi list
     logger.info("=" * 50)
     for ipmi_fru_each in ipmi_sdr:
@@ -34,7 +35,7 @@ def sdr_compare(spec_sdr, ipmi_sdr):
         if eval(ipmi_fru_each[2]) == spec_fru_each[1]:
             logger.info(sensor_name + "'s entity id is pass.")
         else:
-            logger.error(ipmi_fru_each[2] + " and " + spec_fru_each[1] + " are different.\n\
+            logger.error(ipmi_fru_each[2] + " and " + str(spec_fru_each[1]) + " are different.\n\
                         " + sensor_name + "'s entity id is fail.")
 
         # compare sensor type
