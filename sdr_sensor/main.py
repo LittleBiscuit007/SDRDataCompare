@@ -1,7 +1,5 @@
 import os
-
 import SdrAndSensorCompare
-import sensor
 import conf
 import openpyxl
 # read spec file
@@ -72,7 +70,7 @@ def get_sdr():
         # print sdr_list
         for i in sdr_list:
             # delete discrete sensor
-            if i == conf.SplitSDRString:
+            if SplitString in i:
                 break
             # get sensor name/sensor number/entity id/sensor type
             if "Sensor ID" in i or "Entity ID" in i or "Sensor Type" in i:
@@ -143,26 +141,34 @@ def get_sensor():
                 i_list[j] = i_list[j].strip()
             # delete field reading/units/status/lnr/unr
             for _ in range(4):
-                i_list.pop(1)
+                pop_data = i_list.pop(1)
                 if _ == 0:
                     i_list.pop(len(i_list)-1)
+                    # get threshold and discrete split string
+                    if i_list[1] == "discrete":
+                        SplitString = i_list[0]
             # delete discrete sensor
-            if conf.SplitSensorString in i_list:
-                break
-            # print i_list
+            # print SplitString
+            try:
+                if SplitString in i_list:
+                    break
+            except Exception:
+                pass
             sensor_valid_list.append(i_list)
-    return sensor_valid_list
+    return sensor_valid_list, SplitString
 
 
 if __name__ == '__main__':
     spec_sensor, spec_sdr = get_spec_data()
 
-    ipmi_sensor = get_sensor()
+    ipmi_sensor, SplitString = get_sensor()
     # print 'spec_sensor: ', spec_sensor
     # print 'ipmi_sensor: ', ipmi_sensor
     ipmi_sdr = get_sdr()
     # print 'spec_sdr: ', spec_sdr
     # print 'ipmi_sdr: ', ipmi_sdr
+
+    print "Threshold Sensor and Discrete Sensor split string: ", SplitString
 
     # send sdr to SdrAndSensorCompare.py, exec sdr data compare
     SdrAndSensorCompare.sdrandsensor_compare(spec_sdr, ipmi_sdr, spec_sensor, ipmi_sensor)
