@@ -1,0 +1,964 @@
+Sensor ID              : Ambient_Temp (0x1)
+ Entity ID             : 55.0 (Air Inlet)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : 36 (+/- 0) degrees C
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : Outlet_Temp (0x2)
+ Entity ID             : 64.0 (Air Inlet)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : 36 (+/- 0) degrees C
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : Die_CPU1 (0x3)
+ Entity ID             : 3.0 (Processor)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : 38 (+/- 0) degrees C
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : Die_CPU2 (0x4)
+ Entity ID             : 3.0 (Processor)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : CPU1_VR_Temp (0x5)
+ Entity ID             : 3.0 (Processor)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : 43 (+/- 0) degrees C
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : CPU2_VR_Temp (0x6)
+ Entity ID             : 3.0 (Processor)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : 27 (+/- 0) degrees C
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : VDDQ_ABC_CPU1 (0x7)
+ Entity ID             : 3.0 (Processor)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : 36 (+/- 0) degrees C
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : VDDQ_DEF_CPU1 (0x8)
+ Entity ID             : 3.0 (Processor)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : 35 (+/- 0) degrees C
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : VDDQ_ABC_CPU2 (0x9)
+ Entity ID             : 3.0 (Processor)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : 28 (+/- 0) degrees C
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : VDDQ_DEF_CPU2 (0xa)
+ Entity ID             : 3.0 (Processor)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : 27 (+/- 0) degrees C
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : NIC_Temp (0xb)
+ Entity ID             : 11.0 (Add-in Card)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_A1_CPU1 (0xc)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_A2_CPU1 (0xd)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_B1_CPU1 (0xe)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_B2_CPU1 (0xf)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_C1_CPU1 (0x10)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : 33 (+/- 0) degrees C
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_C2_CPU1 (0x11)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_D1_CPU1 (0x12)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_D2_CPU1 (0x13)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_E1_CPU1 (0x14)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_E2_CPU1 (0x15)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_F1_CPU1 (0x16)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_F2_CPU1 (0x17)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_A1_CPU2 (0x18)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_A2_CPU2 (0x19)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_B1_CPU2 (0x1a)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_B2_CPU2 (0x1b)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_C1_CPU2 (0x1c)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_C2_CPU2 (0x1d)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_D1_CPU2 (0x1e)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_D2_CPU2 (0x1f)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_E1_CPU2 (0x20)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_E2_CPU2 (0x21)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_F1_CPU2 (0x22)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : DIMM_F2_CPU2 (0x23)
+ Entity ID             : 32.0 (Memory Device)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : PCH_Temp (0x24)
+ Entity ID             : 3.0 (Processor)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : PSU0_Temp (0x25)
+ Entity ID             : 10.0 (Power Supply)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : PSU1_Temp (0x26)
+ Entity ID             : 10.0 (Power Supply)
+ Sensor Type (Threshold)  : Temperature (0x01)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : P12V_AUX (0x30)
+ Entity ID             : 7.0 (System Board)
+ Sensor Type (Threshold)  : Voltage (0x02)
+ Sensor Reading        : 12.348 (+/- 0) Volts
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : P5V_AUX (0x31)
+ Entity ID             : 7.0 (System Board)
+ Sensor Type (Threshold)  : Voltage (0x02)
+ Sensor Reading        : 5 (+/- 0) Volts
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : P3V3_AUX (0x32)
+ Entity ID             : 7.0 (System Board)
+ Sensor Type (Threshold)  : Voltage (0x02)
+ Sensor Reading        : 3.350 (+/- 0) Volts
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : P1V8_PCH_AUX (0x33)
+ Entity ID             : 7.0 (System Board)
+ Sensor Type (Threshold)  : Voltage (0x02)
+ Sensor Reading        : 1.817 (+/- 0) Volts
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : PVNN_PCH_AUX (0x34)
+ Entity ID             : 7.0 (System Board)
+ Sensor Type (Threshold)  : Voltage (0x02)
+ Sensor Reading        : 0.449 (+/- 0) Volts
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : P1V05_PCH_AUX (0x35)
+ Entity ID             : 7.0 (System Board)
+ Sensor Type (Threshold)  : Voltage (0x02)
+ Sensor Reading        : 1.071 (+/- 0) Volts
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : P1V2_DDR_BMC (0x36)
+ Entity ID             : 7.0 (System Board)
+ Sensor Type (Threshold)  : Voltage (0x02)
+ Sensor Reading        : 1.210 (+/- 0) Volts
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : P1V15_BMC (0x37)
+ Entity ID             : 7.0 (System Board)
+ Sensor Type (Threshold)  : Voltage (0x02)
+ Sensor Reading        : 1.160 (+/- 0) Volts
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : PVCCIO_CPU1 (0x38)
+ Entity ID             : 7.0 (System Board)
+ Sensor Type (Threshold)  : Voltage (0x02)
+ Sensor Reading        : 1.020 (+/- 0) Volts
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : PVCCIO_CPU2 (0x39)
+ Entity ID             : 7.0 (System Board)
+ Sensor Type (Threshold)  : Voltage (0x02)
+ Sensor Reading        : 1.010 (+/- 0) Volts
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : P12V_STBY (0x3a)
+ Entity ID             : 7.0 (System Board)
+ Sensor Type (Threshold)  : Voltage (0x02)
+ Sensor Reading        : 12.411 (+/- 0) Volts
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : P12V (0x3b)
+ Entity ID             : 7.0 (System Board)
+ Sensor Type (Threshold)  : Voltage (0x02)
+ Sensor Reading        : 12.348 (+/- 0) Volts
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : P5V (0x3c)
+ Entity ID             : 7.0 (System Board)
+ Sensor Type (Threshold)  : Voltage (0x02)
+ Sensor Reading        : 5 (+/- 0) Volts
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : P3V3 (0x3d)
+ Entity ID             : 7.0 (System Board)
+ Sensor Type (Threshold)  : Voltage (0x02)
+ Sensor Reading        : 3.350 (+/- 0) Volts
+ Status                : ok
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : PSU0_VIN (0x40)
+ Entity ID             : 10.0 (Power Supply)
+ Sensor Type (Threshold)  : Voltage (0x02)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : PSU0_VOUT (0x41)
+ Entity ID             : 10.0 (Power Supply)
+ Sensor Type (Threshold)  : Voltage (0x02)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : PSU0_IIN (0x42)
+ Entity ID             : 10.0 (Power Supply)
+ Sensor Type (Threshold)  : Current (0x03)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : PSU0_IOUT (0x43)
+ Entity ID             : 10.0 (Power Supply)
+ Sensor Type (Threshold)  : Current (0x03)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : PSU0_PIN (0x44)
+ Entity ID             : 10.0 (Power Supply)
+ Sensor Type (Threshold)  : Other (0x0b)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : PSU0_POUT (0x45)
+ Entity ID             : 10.0 (Power Supply)
+ Sensor Type (Threshold)  : Other (0x0b)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : PSU1_VIN (0x46)
+ Entity ID             : 10.0 (Power Supply)
+ Sensor Type (Threshold)  : Voltage (0x02)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : PSU1_VOUT (0x47)
+ Entity ID             : 10.0 (Power Supply)
+ Sensor Type (Threshold)  : Voltage (0x02)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : PSU1_IIN (0x48)
+ Entity ID             : 10.0 (Power Supply)
+ Sensor Type (Threshold)  : Current (0x03)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : PSU1_IOUT (0x49)
+ Entity ID             : 10.0 (Power Supply)
+ Sensor Type (Threshold)  : Current (0x03)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : PSU1_PIN (0x4a)
+ Entity ID             : 10.0 (Power Supply)
+ Sensor Type (Threshold)  : Other (0x0b)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : PSU1_POUT (0x4b)
+ Entity ID             : 10.0 (Power Supply)
+ Sensor Type (Threshold)  : Other (0x0b)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : Fan1_Speed (0x50)
+ Entity ID             : 29.0 (Fan Device)
+ Sensor Type (Threshold)  : Fan (0x04)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : Fan2_Speed (0x51)
+ Entity ID             : 29.0 (Fan Device)
+ Sensor Type (Threshold)  : Fan (0x04)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : Fan3_Speed (0x52)
+ Entity ID             : 29.0 (Fan Device)
+ Sensor Type (Threshold)  : Fan (0x04)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : Fan4_Speed (0x53)
+ Entity ID             : 29.0 (Fan Device)
+ Sensor Type (Threshold)  : Fan (0x04)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : Fan5_Speed (0x54)
+ Entity ID             : 29.0 (Fan Device)
+ Sensor Type (Threshold)  : Fan (0x04)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : Fan6_Speed (0x55)
+ Entity ID             : 29.0 (Fan Device)
+ Sensor Type (Threshold)  : Fan (0x04)
+ Sensor Reading        : Disabled
+ Status                : Not Available
+ Positive Hysteresis   : Unspecified
+ Negative Hysteresis   : Unspecified
+ Minimum sensor range  : Unspecified
+ Maximum sensor range  : Unspecified
+ Event Message Control : Per-threshold
+ Readable Thresholds   : No Thresholds
+ Settable Thresholds   : No Thresholds
+
+Sensor ID              : FAN1_Status (0x60)
+ Entity ID             : 29.0 (Fan Device)
+ Sensor Type (Discrete): Fan (0x04)
+ Sensor Reading        : 0h
+ Event Message Control : Per-threshold
+ States Asserted       : Fan
+                         [Device Absent]
+ OEM                   : 0
+
+Sensor ID              : FAN2_Status (0x61)
+ Entity ID             : 29.0 (Fan Device)
+ Sensor Type (Discrete): Fan (0x04)
+ Sensor Reading        : 0h
+ Event Message Control : Per-threshold
+ States Asserted       : Fan
+                         [Device Absent]
+ OEM                   : 0
+
+Sensor ID              : FAN3_Status (0x62)
+ Entity ID             : 29.0 (Fan Device)
+ Sensor Type (Discrete): Fan (0x04)
+ Sensor Reading        : 0h
+ Event Message Control : Per-threshold
+ States Asserted       : Fan
+                         [Device Absent]
+ OEM                   : 0
+
+Sensor ID              : FAN4_Status (0x63)
+ Entity ID             : 29.0 (Fan Device)
+ Sensor Type (Discrete): Fan (0x04)
+ Sensor Reading        : 0h
+ Event Message Control : Per-threshold
+ States Asserted       : Fan
+                         [Device Absent]
+ OEM                   : 0
+
+Sensor ID              : FAN5_Status (0x64)
+ Entity ID             : 29.0 (Fan Device)
+ Sensor Type (Discrete): Fan (0x04)
+ Sensor Reading        : 0h
+ Event Message Control : Per-threshold
+ States Asserted       : Fan
+                         [Device Absent]
+ OEM                   : 0
+
+Sensor ID              : FAN6_Status (0x65)
+ Entity ID             : 29.0 (Fan Device)
+ Sensor Type (Discrete): Fan (0x04)
+ Sensor Reading        : 0h
+ Event Message Control : Per-threshold
+ States Asserted       : Fan
+                         [Device Absent]
+ OEM                   : 0
+
