@@ -1,6 +1,6 @@
 import os
 
-import sdr
+import SdrAndSensorCompare
 import sensor
 import conf
 import openpyxl
@@ -8,7 +8,7 @@ import openpyxl
 #     sdr
 #         dict, key: sensor name, values: [sensor number, entity id, sensor type]
 #         entity id: Hex data changed to Dec data
-#         send sdr to sdr.py, exec sdr data compare
+#         send sdr to SdrAndSensorCompare.py, exec sdr data compare
 #     sensor
 #         dict, key: sensor name, values: threshold=[LC, LNC, UNC, UC],
 #         X/None changed to na
@@ -72,7 +72,7 @@ def get_sdr():
         # print sdr_list
         for i in sdr_list:
             # delete discrete sensor
-            if i == conf.SplitString:
+            if i == conf.SplitSDRString:
                 break
             # get sensor name/sensor number/entity id/sensor type
             if "Sensor ID" in i or "Entity ID" in i or "Sensor Type" in i:
@@ -146,6 +146,9 @@ def get_sensor():
                 i_list.pop(1)
                 if _ == 0:
                     i_list.pop(len(i_list)-1)
+            # delete discrete sensor
+            if conf.SplitSensorString in i_list:
+                break
             # print i_list
             sensor_valid_list.append(i_list)
     return sensor_valid_list
@@ -157,13 +160,13 @@ if __name__ == '__main__':
     ipmi_sensor = get_sensor()
     # print 'spec_sensor: ', spec_sensor
     # print 'ipmi_sensor: ', ipmi_sensor
-    # send sensor data to sensor.py, exec sensor data compare
-    sensor.sensor_compare(spec_sensor, ipmi_sensor)
-
     ipmi_sdr = get_sdr()
     # print 'spec_sdr: ', spec_sdr
     # print 'ipmi_sdr: ', ipmi_sdr
-    # send sdr to sdr.py, exec sdr data compare
-    sdr.sdr_compare(spec_sdr, ipmi_sdr)
+
+    # send sdr to SdrAndSensorCompare.py, exec sdr data compare
+    SdrAndSensorCompare.sdrandsensor_compare(spec_sdr, ipmi_sdr, spec_sensor, ipmi_sensor)
+    # send sensor data to sensor.py, exec sensor data compare
+    # sensor.sensor_compare(spec_sensor, ipmi_sensor)
 
 
