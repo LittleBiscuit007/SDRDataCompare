@@ -94,5 +94,6 @@ def sdrandsensor_compare(spec_sdr, ipmi_sdr, spec_sensor, ipmi_sensor):
         # print "Start compare spec/ipmi sensor data..."
         # compare threshold
         threshold_compare(ipmi_sensor[sensor_index], spec_threshold_each, sensor_name)
+        sensor_index += 1
 
 

@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c583d81d-1504-49b8-b659-7cc016ee02b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sdr_sensor/ResultLogToExcel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practive.py" beforeDir="false" afterPath="$PROJECT_DIR$/practive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/new.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdr_sensor/ResultLogToExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdr_sensor/ResultLogToExcel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdr_sensor/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdr_sensor/conf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sdr_sensor/log_sdr_sensor.log" beforeDir="false" afterPath="$PROJECT_DIR$/sdr_sensor/log_sdr_sensor.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sdr_sensor/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdr_sensor/main.py" afterDir="false" />
     </list>
@@ -18,9 +17,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/data_compare$practive.coverage" NAME="practive Coverage Results" MODIFIED="1569398706188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/data_compare$ResultLogToExcel.coverage" NAME="ResultLogToExcel Coverage Results" MODIFIED="1569402146856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sdr_sensor" />
+    <SUITE FILE_PATH="coverage/data_compare$ResultLogToExcel.coverage" NAME="ResultLogToExcel Coverage Results" MODIFIED="1569402929737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sdr_sensor" />
     <SUITE FILE_PATH="coverage/data_compare$data_compare.coverage" NAME="data_compare Coverage Results" MODIFIED="1568860261529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/data_compare$main.coverage" NAME="main Coverage Results" MODIFIED="1569401901975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sdr_sensor" />
+    <SUITE FILE_PATH="coverage/data_compare$main.coverage" NAME="main Coverage Results" MODIFIED="1569403844540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sdr_sensor" />
     <SUITE FILE_PATH="coverage/data_compare$logger.coverage" NAME="logger Coverage Results" MODIFIED="1568883894963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sdr_sensor" />
     <SUITE FILE_PATH="coverage/data_compare$sensor_compare.coverage" NAME="sensor_compare Coverage Results" MODIFIED="1568873729909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/data_compare$sdr.coverage" NAME="sdr Coverage Results" MODIFIED="1568887195809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sdr_sensor" />
@@ -31,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sdr_sensor/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+            <state relative-caret-position="272">
+              <caret line="94" column="53" selection-start-line="94" selection-start-column="53" selection-end-line="94" selection-end-column="53" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -43,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/177_sensor.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="70" column="40" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="40" />
+            <state relative-caret-position="34">
+              <caret line="2" column="93" lean-forward="true" selection-start-line="2" selection-start-column="93" selection-end-line="2" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -61,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="72" column="20" lean-forward="true" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
+            <state relative-caret-position="1140">
+              <caret line="96" column="25" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="25" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -70,13 +69,9 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sdr_sensor/log_sdr_sensor.log">
-          <provider selected="true" editor-type-id="LogFileEditorProvider">
-            <state relative-caret-position="221">
-              <caret line="31" column="71" selection-start-line="31" selection-start-column="71" selection-end-line="31" selection-end-column="71" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="LogFileEditorProvider" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -91,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/practive.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
+            <state relative-caret-position="396">
               <caret line="60" column="20" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -100,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sdr_sensor/ResultLogToExcel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+            <state relative-caret-position="371">
+              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -139,6 +134,7 @@
       <find>Split</find>
       <find>discrete_string</find>
       <find>Fan6</find>
+      <find>sensor_index</find>
       <find>SplitString</find>
     </findStrings>
   </component>
@@ -158,9 +154,9 @@
         <option value="$PROJECT_DIR$/practive.py" />
         <option value="$PROJECT_DIR$/sdr_sensor/conf.py" />
         <option value="$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py" />
-        <option value="$PROJECT_DIR$/sdr_sensor/log_sdr_sensor.log" />
-        <option value="$PROJECT_DIR$/sdr_sensor/main.py" />
         <option value="$PROJECT_DIR$/sdr_sensor/ResultLogToExcel.py" />
+        <option value="$PROJECT_DIR$/sdr_sensor/main.py" />
+        <option value="$PROJECT_DIR$/sdr_sensor/log_sdr_sensor.log" />
       </list>
     </option>
   </component>
@@ -219,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ResultLogToExcel">
+  <component name="RunManager" selected="Python.main">
     <configuration name="ResultLogToExcel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_compare" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -332,8 +328,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ResultLogToExcel" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.ResultLogToExcel" />
         <item itemvalue="Python.practive" />
         <item itemvalue="Python.sdr" />
         <item itemvalue="Python.logger" />
@@ -352,7 +348,7 @@
       <updated>1565085810768</updated>
       <workItem from="1565085825139" duration="5999000" />
       <workItem from="1565575345689" duration="19141000" />
-      <workItem from="1568858318462" duration="58453000" />
+      <workItem from="1568858318462" duration="60150000" />
     </task>
     <task id="LOCAL-00001" summary="complete spec/ipmi sdr compare">
       <created>1568946716797</created>
@@ -403,11 +399,25 @@
       <option name="project" value="LOCAL" />
       <updated>1569232335299</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="complete save test data from result log file to excel">
+      <created>1569402203995</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569402203996</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add testplan/thresholdName/practive file">
+      <created>1569402353030</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1569402353030</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83593000" />
+    <option name="totallyTimeSpent" value="85290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="1018" extended-state="6" />
@@ -446,7 +456,9 @@
     <MESSAGE value="refactor sdr.fru(sensor number/entity id/sensor type) compare code" />
     <MESSAGE value="merge sdr/sensor compare, remove sensor.py file" />
     <MESSAGE value="improve threshold and discrete split string (all of below discrete must be discrete)" />
-    <option name="LAST_COMMIT_MESSAGE" value="improve threshold and discrete split string (all of below discrete must be discrete)" />
+    <MESSAGE value="complete save test data from result log file to excel" />
+    <MESSAGE value="add testplan/thresholdName/practive file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add testplan/thresholdName/practive file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2/typing.pyi">
@@ -546,47 +558,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practive.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="60" column="20" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sdr_sensor/conf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="72" column="20" lean-forward="true" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sdr_sensor/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -597,29 +572,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/177_sensor.txt">
+    <entry file="file://$PROJECT_DIR$/practive.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="40" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="40" />
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdr_sensor/log_sdr_sensor.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="221">
-          <caret line="31" column="71" selection-start-line="31" selection-start-column="71" selection-end-line="31" selection-end-column="71" />
+    <entry file="file://$PROJECT_DIR$/practive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="60" column="20" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/177_sensor.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="93" lean-forward="true" selection-start-line="2" selection-start-column="93" selection-end-line="2" selection-end-column="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sdr_sensor/ResultLogToExcel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+        <state relative-caret-position="371">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="96" column="25" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdr_sensor/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="94" column="53" selection-start-line="94" selection-start-column="53" selection-end-line="94" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdr_sensor/log_sdr_sensor.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
   </component>
 </project>
