@@ -25,13 +25,16 @@ def threshold_compare(ipmi_threshold_each, spec_threshold_each, sensor_name):
         if ipmi_threshold_each[i] == spec_threshold_each[i-1]:
             logger.info(sensor_name + "'s " + threshold_name_list[i-1] + " is pass.")
         elif ipmi_threshold_each[i] == "na" or spec_threshold_each[i-1] == "na":
-            logger.error(sensor_name + "'s " + threshold_name_list[i-1] + " is fail.")
+            # print type(ipmi_threshold_each[i]), type(spec_threshold_each[i-1])
+            logger.error(ipmi_threshold_each[i] + " and " + str(spec_threshold_each[i-1]) + " are different. \
+                         " + sensor_name + "'s " + threshold_name_list[i-1] + " is fail.")
         else:
             ipmi_spec_diff_rate = diff_rate(ipmi_threshold_each[i], spec_threshold_each[i-1])
             if ipmi_spec_diff_rate <= 0.01:
                 logger.info(sensor_name + "'s " + threshold_name_list[i-1] + " is pass.")
             else:
-                logger.error(sensor_name + "'s " + threshold_name_list[i-1] + " is fail.")
+                logger.error(ipmi_threshold_each[i] + " and " + str(spec_threshold_each[i-1]) + " are different. \
+                            " + sensor_name + "'s " + threshold_name_list[i-1] + " is fail.")
 
 
 def fru_compare(ipmi_fru_each, spec_fru_each, sensor_name):
@@ -48,8 +51,8 @@ def fru_compare(ipmi_fru_each, spec_fru_each, sensor_name):
         else:
             # print i, ipmi_fru_each[i], spec_fru_each[i-1], sensor_name, type(ipmi_fru_each[i]), \
             #     type(spec_fru_each[i-1])
-            logger.error(str(ipmi_fru_each[i]) + " and " + str(spec_fru_each[i-1]) + " are different.\n\
-                                " + sensor_name + "'s " + fru_name_list[i-1] + " is fail.")
+            logger.error(str(ipmi_fru_each[i]) + " and " + str(spec_fru_each[i-1]) + " are different.\
+                        " + sensor_name + "'s " + fru_name_list[i-1] + " is fail.")
 
 
 def sdrandsensor_compare(spec_sdr, ipmi_sdr, spec_sensor, ipmi_sensor):
@@ -62,6 +65,7 @@ def sdrandsensor_compare(spec_sdr, ipmi_sdr, spec_sensor, ipmi_sensor):
     :return:
     """
     if len(ipmi_sdr) != len(ipmi_sensor):
+        print "get ipmi sdr/sensor data info error"
         logger.error("get ipmi data error")
         return 0
     print "Start compare spec/ipmi sdr/sensor data..."

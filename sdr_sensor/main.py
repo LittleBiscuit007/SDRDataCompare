@@ -35,7 +35,7 @@ def get_spec_data():
         # dict, key: sensor name, values: [sensor number, entity id, sensor type]
         # entity id: Hex data changed to Dec data
         spec_sdr[row[1].value] = [row[0].value, eval("0x" + row[5].value[:-1]), row[3].value]
-
+        # print row[1].value
         # dict, key: sensor name, values: threshold=[LC, LNC, UNC, UC]
         # X/None changed to na
         for i in range(8, 12):
@@ -174,5 +174,7 @@ if __name__ == '__main__':
     SdrAndSensorCompare.sdrandsensor_compare(spec_sdr, ipmi_sdr, spec_sensor, ipmi_sensor)
     # send sensor data to sensor.py, exec sensor data compare
     # sensor.sensor_compare(spec_sensor, ipmi_sensor)
+
+    print "Start read .log file test result save to Excel..."
 
 

@@ -2,6 +2,7 @@ BMCIP = "10.245.36.177"
 UserName = "root"
 Password = "0penBmc"
 
+TestPlanName = "new.xlsx"
 SpecFileName = "PF05008957_HR650X+_BMC_BMC SDR Spec_V0.2.xlsx"
 Start_SpecFile = "A3"
 End_SpecFile = "M77"
