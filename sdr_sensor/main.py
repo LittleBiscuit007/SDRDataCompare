@@ -92,6 +92,8 @@ def get_sdr():
             sub_ipmi_sdr.append(sdr_value[0])
             if len(sdr_value[1][3:-1]) == 1:
                 sensor_number = "0" + sdr_value[1][3:-1]
+            else:
+                sensor_number = sdr_value[1][3:-1]
             sub_ipmi_sdr.append(sensor_number.upper() + "h")
         # append entity id
         if count == 2:

@@ -25,7 +25,7 @@ def write_excel(result_str, cell_row):
     # modify specify cell value
     ws[cell_name] = result_str
 
-    print cell_name
+    # print cell_name
 
     # save modify file, parameter is saved file name
     workbook.save("../" + conf.TestPlanName)
