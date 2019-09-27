@@ -1,39 +1,37 @@
-import openpyxl
-
+import os
 import conf
-
-"""
-read log_sdr_sensor.log file
-if first read string is "ERROR - ",
-every three row data as a test item result, set a skip_flag as "three loop", skip write excel
-every eight keyword save as a test item result,
-make up String data, then write specify cell into excel 
-write into excel
-"""
+from pyExcelerator import Workbook
 
 
-def write_excel(result_str, cell_row):
-    # get excel workbook
-    workbook = openpyxl.load_workbook("../" + conf.TestPlanName)
-    # get workbook name, return data is list
-    # print workbook.sheetnames
+def write_excel(ipmi_sdr, excel_result_list):
+    # if test result excel exists, then remove it
+    if os.path.exists("../" + conf.TestPlanName):
+        os.remove("../" + conf.TestPlanName)
 
-    # get valid workobject
-    ws = workbook.get_sheet_by_name("Sheet1")
+    # create excel workbook
+    w = Workbook()
+    # create a worksheet
+    ws = w.add_sheet('Sheet1')
+    # write sensor name into excel
+    for row in range(len(ipmi_sdr)):
+        ws.write(row, 0, ipmi_sdr[row][0])
+        ws.write(row, 1, excel_result_list[row])
 
-    cell_name = "B" + str(cell_row)
-    # modify specify cell value
-    ws[cell_name] = result_str
-
-    # print cell_name
+    # print result_str
 
     # save modify file, parameter is saved file name
-    workbook.save("../" + conf.TestPlanName)
+    w.save("../" + conf.TestPlanName)
 
 
-def run():
+def run(ipmi_sdr):
     """
     exec this script's main function
+    read log_sdr_sensor.log file
+    if first read string is "ERROR",
+    every three row data as a test item result, set a skip_flag as "three loop", skip write excel
+    every eight keyword save as a test item result,
+    make up String data, then write specify cell into excel
+    write into excel
     :return:
     """
     # read log_sdr_sensor.log file
@@ -42,7 +40,7 @@ def run():
         loop_flag = 1
         result_list = ["Sensor name, ", "sensor number, ", "entity id, ", "sensor type, ", "LC, ", "LNC, ", "UNC, ", "UC"]
         result_str = ""
-        cell_row = 1
+        excel_result_list = []
         while True:
             log_file_data = log_file.readline()
             # read file end, exit loop
@@ -51,7 +49,7 @@ def run():
             # if first read string is "ERROR - ",
             # every three row data as a test item result, set a skip_flag as "three loop", skip write excel
             if "spec don't have" in log_file_data:
-                result_str += result_list[0]
+                excel_result_list.append("Sensor name, ")
                 skip_flag = 2
                 continue
             if skip_flag:
@@ -62,14 +60,14 @@ def run():
             if "ERROR" in log_file_data:
                 result_str += result_list[loop_flag-1]
             if loop_flag == 8:
-                # write specify cell into excel
-                write_excel(result_str, cell_row)
-                cell_row += 1
+                excel_result_list.append(result_str)
                 result_str = ""
                 loop_flag = 0
             loop_flag += 1
 
+        # print excel_result_list
+        # write specify cell into excel
+        write_excel(ipmi_sdr, excel_result_list)
 
-if __name__ == '__main__':
-    run()
+
 

@@ -1,520 +1,520 @@
-INFO - 2019-09-27 14:20:13,116 - Ambient_Temp's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,117 - Ambient_Temp's sensor number is pass.
-INFO - 2019-09-27 14:20:13,117 - Ambient_Temp's entity id is pass.
-INFO - 2019-09-27 14:20:13,117 - Ambient_Temp's sensor type is pass.
-INFO - 2019-09-27 14:20:13,117 - Ambient_Temp's LC is pass.
-ERROR - 2019-09-27 14:20:13,117 - na and 7 are different.                          Ambient_Temp's LNC is fail.
-ERROR - 2019-09-27 14:20:13,117 - 60.000 and 42 are different.                             Ambient_Temp's UNC is fail.
-ERROR - 2019-09-27 14:20:13,117 - 70.000 and 45 are different.                             Ambient_Temp's UC is fail.
-INFO - 2019-09-27 14:20:13,117 - Outlet_Temp's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,117 - Outlet_Temp's sensor number is pass.
-INFO - 2019-09-27 14:20:13,117 - Outlet_Temp's entity id is pass.
-INFO - 2019-09-27 14:20:13,117 - Outlet_Temp's sensor type is pass.
-INFO - 2019-09-27 14:20:13,118 - Outlet_Temp's LC is pass.
-INFO - 2019-09-27 14:20:13,118 - Outlet_Temp's LNC is pass.
-ERROR - 2019-09-27 14:20:13,118 - 60.000 and na are different.                          Outlet_Temp's UNC is fail.
-ERROR - 2019-09-27 14:20:13,118 - 70.000 and na are different.                          Outlet_Temp's UC is fail.
-INFO - 2019-09-27 14:20:13,118 - Die_CPU1's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,118 - Die_CPU1's sensor number is pass.
-INFO - 2019-09-27 14:20:13,118 - Die_CPU1's entity id is pass.
-INFO - 2019-09-27 14:20:13,118 - Die_CPU1's sensor type is pass.
-INFO - 2019-09-27 14:20:13,118 - Die_CPU1's LC is pass.
-INFO - 2019-09-27 14:20:13,118 - Die_CPU1's LNC is pass.
-ERROR - 2019-09-27 14:20:13,118 - 81.000 and na are different.                          Die_CPU1's UNC is fail.
-ERROR - 2019-09-27 14:20:13,118 - 91.000 and na are different.                          Die_CPU1's UC is fail.
-INFO - 2019-09-27 14:20:13,118 - Die_CPU2's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,118 - Die_CPU2's sensor number is pass.
-INFO - 2019-09-27 14:20:13,118 - Die_CPU2's entity id is pass.
-INFO - 2019-09-27 14:20:13,118 - Die_CPU2's sensor type is pass.
-INFO - 2019-09-27 14:20:13,118 - Die_CPU2's LC is pass.
-INFO - 2019-09-27 14:20:13,118 - Die_CPU2's LNC is pass.
-INFO - 2019-09-27 14:20:13,118 - Die_CPU2's UNC is pass.
-INFO - 2019-09-27 14:20:13,118 - Die_CPU2's UC is pass.
-INFO - 2019-09-27 14:20:13,119 - CPU1_VR_Temp's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,119 - CPU1_VR_Temp's sensor number is pass.
-INFO - 2019-09-27 14:20:13,119 - CPU1_VR_Temp's entity id is pass.
-INFO - 2019-09-27 14:20:13,119 - CPU1_VR_Temp's sensor type is pass.
-INFO - 2019-09-27 14:20:13,119 - CPU1_VR_Temp's LC is pass.
-INFO - 2019-09-27 14:20:13,119 - CPU1_VR_Temp's LNC is pass.
-INFO - 2019-09-27 14:20:13,119 - CPU1_VR_Temp's UNC is pass.
-INFO - 2019-09-27 14:20:13,119 - CPU1_VR_Temp's UC is pass.
-INFO - 2019-09-27 14:20:13,119 - CPU2_VR_Temp's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,119 - CPU2_VR_Temp's sensor number is pass.
-INFO - 2019-09-27 14:20:13,119 - CPU2_VR_Temp's entity id is pass.
-INFO - 2019-09-27 14:20:13,119 - CPU2_VR_Temp's sensor type is pass.
-INFO - 2019-09-27 14:20:13,119 - CPU2_VR_Temp's LC is pass.
-INFO - 2019-09-27 14:20:13,119 - CPU2_VR_Temp's LNC is pass.
-INFO - 2019-09-27 14:20:13,119 - CPU2_VR_Temp's UNC is pass.
-INFO - 2019-09-27 14:20:13,119 - CPU2_VR_Temp's UC is pass.
-INFO - 2019-09-27 14:20:13,119 - VDDQ_ABC_CPU1's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,119 - VDDQ_ABC_CPU1's sensor number is pass.
-ERROR - 2019-09-27 14:20:13,119 - 3.0 and 32 are different.                        VDDQ_ABC_CPU1's entity id is fail.
-INFO - 2019-09-27 14:20:13,119 - VDDQ_ABC_CPU1's sensor type is pass.
-INFO - 2019-09-27 14:20:13,120 - VDDQ_ABC_CPU1's LC is pass.
-INFO - 2019-09-27 14:20:13,120 - VDDQ_ABC_CPU1's LNC is pass.
-INFO - 2019-09-27 14:20:13,120 - VDDQ_ABC_CPU1's UNC is pass.
-INFO - 2019-09-27 14:20:13,120 - VDDQ_ABC_CPU1's UC is pass.
-INFO - 2019-09-27 14:20:13,120 - VDDQ_DEF_CPU1's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,120 - VDDQ_DEF_CPU1's sensor number is pass.
-ERROR - 2019-09-27 14:20:13,120 - 3.0 and 32 are different.                        VDDQ_DEF_CPU1's entity id is fail.
-INFO - 2019-09-27 14:20:13,120 - VDDQ_DEF_CPU1's sensor type is pass.
-INFO - 2019-09-27 14:20:13,120 - VDDQ_DEF_CPU1's LC is pass.
-INFO - 2019-09-27 14:20:13,120 - VDDQ_DEF_CPU1's LNC is pass.
-INFO - 2019-09-27 14:20:13,120 - VDDQ_DEF_CPU1's UNC is pass.
-INFO - 2019-09-27 14:20:13,120 - VDDQ_DEF_CPU1's UC is pass.
-INFO - 2019-09-27 14:20:13,120 - VDDQ_ABC_CPU2's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,121 - VDDQ_ABC_CPU2's sensor number is pass.
-ERROR - 2019-09-27 14:20:13,121 - 3.0 and 32 are different.                        VDDQ_ABC_CPU2's entity id is fail.
-INFO - 2019-09-27 14:20:13,121 - VDDQ_ABC_CPU2's sensor type is pass.
-INFO - 2019-09-27 14:20:13,121 - VDDQ_ABC_CPU2's LC is pass.
-INFO - 2019-09-27 14:20:13,121 - VDDQ_ABC_CPU2's LNC is pass.
-INFO - 2019-09-27 14:20:13,121 - VDDQ_ABC_CPU2's UNC is pass.
-INFO - 2019-09-27 14:20:13,121 - VDDQ_ABC_CPU2's UC is pass.
-INFO - 2019-09-27 14:20:13,121 - VDDQ_DEF_CPU2's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,121 - VDDQ_DEF_CPU2's sensor number is pass.
-ERROR - 2019-09-27 14:20:13,121 - 3.0 and 32 are different.                        VDDQ_DEF_CPU2's entity id is fail.
-INFO - 2019-09-27 14:20:13,121 - VDDQ_DEF_CPU2's sensor type is pass.
-INFO - 2019-09-27 14:20:13,121 - VDDQ_DEF_CPU2's LC is pass.
-INFO - 2019-09-27 14:20:13,121 - VDDQ_DEF_CPU2's LNC is pass.
-INFO - 2019-09-27 14:20:13,121 - VDDQ_DEF_CPU2's UNC is pass.
-INFO - 2019-09-27 14:20:13,121 - VDDQ_DEF_CPU2's UC is pass.
-INFO - 2019-09-27 14:20:13,121 - NIC_Temp's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,121 - NIC_Temp's sensor number is pass.
-INFO - 2019-09-27 14:20:13,121 - NIC_Temp's entity id is pass.
-INFO - 2019-09-27 14:20:13,121 - NIC_Temp's sensor type is pass.
-INFO - 2019-09-27 14:20:13,122 - NIC_Temp's LC is pass.
-INFO - 2019-09-27 14:20:13,122 - NIC_Temp's LNC is pass.
-INFO - 2019-09-27 14:20:13,122 - NIC_Temp's UNC is pass.
-INFO - 2019-09-27 14:20:13,122 - NIC_Temp's UC is pass.
-INFO - 2019-09-27 14:20:13,122 - DIMM_A1_CPU1's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,122 - DIMM_A1_CPU1's sensor number is pass.
-INFO - 2019-09-27 14:20:13,122 - DIMM_A1_CPU1's entity id is pass.
-INFO - 2019-09-27 14:20:13,122 - DIMM_A1_CPU1's sensor type is pass.
-INFO - 2019-09-27 14:20:13,122 - DIMM_A1_CPU1's LC is pass.
-INFO - 2019-09-27 14:20:13,122 - DIMM_A1_CPU1's LNC is pass.
-INFO - 2019-09-27 14:20:13,122 - DIMM_A1_CPU1's UNC is pass.
-INFO - 2019-09-27 14:20:13,122 - DIMM_A1_CPU1's UC is pass.
-INFO - 2019-09-27 14:20:13,122 - DIMM_A2_CPU1's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,122 - DIMM_A2_CPU1's sensor number is pass.
-INFO - 2019-09-27 14:20:13,122 - DIMM_A2_CPU1's entity id is pass.
-INFO - 2019-09-27 14:20:13,122 - DIMM_A2_CPU1's sensor type is pass.
-INFO - 2019-09-27 14:20:13,122 - DIMM_A2_CPU1's LC is pass.
-INFO - 2019-09-27 14:20:13,122 - DIMM_A2_CPU1's LNC is pass.
-INFO - 2019-09-27 14:20:13,122 - DIMM_A2_CPU1's UNC is pass.
-INFO - 2019-09-27 14:20:13,122 - DIMM_A2_CPU1's UC is pass.
-INFO - 2019-09-27 14:20:13,123 - DIMM_B1_CPU1's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,123 - DIMM_B1_CPU1's sensor number is pass.
-INFO - 2019-09-27 14:20:13,123 - DIMM_B1_CPU1's entity id is pass.
-INFO - 2019-09-27 14:20:13,123 - DIMM_B1_CPU1's sensor type is pass.
-INFO - 2019-09-27 14:20:13,123 - DIMM_B1_CPU1's LC is pass.
-INFO - 2019-09-27 14:20:13,123 - DIMM_B1_CPU1's LNC is pass.
-INFO - 2019-09-27 14:20:13,123 - DIMM_B1_CPU1's UNC is pass.
-INFO - 2019-09-27 14:20:13,123 - DIMM_B1_CPU1's UC is pass.
-INFO - 2019-09-27 14:20:13,123 - DIMM_B2_CPU1's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,123 - DIMM_B2_CPU1's sensor number is pass.
-INFO - 2019-09-27 14:20:13,123 - DIMM_B2_CPU1's entity id is pass.
-INFO - 2019-09-27 14:20:13,123 - DIMM_B2_CPU1's sensor type is pass.
-INFO - 2019-09-27 14:20:13,123 - DIMM_B2_CPU1's LC is pass.
-INFO - 2019-09-27 14:20:13,123 - DIMM_B2_CPU1's LNC is pass.
-INFO - 2019-09-27 14:20:13,124 - DIMM_B2_CPU1's UNC is pass.
-INFO - 2019-09-27 14:20:13,124 - DIMM_B2_CPU1's UC is pass.
-INFO - 2019-09-27 14:20:13,124 - DIMM_C1_CPU1's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,124 - DIMM_C1_CPU1's sensor number is pass.
-INFO - 2019-09-27 14:20:13,124 - DIMM_C1_CPU1's entity id is pass.
-INFO - 2019-09-27 14:20:13,124 - DIMM_C1_CPU1's sensor type is pass.
-INFO - 2019-09-27 14:20:13,124 - DIMM_C1_CPU1's LC is pass.
-INFO - 2019-09-27 14:20:13,124 - DIMM_C1_CPU1's LNC is pass.
-ERROR - 2019-09-27 14:20:13,124 - 89.000 and na are different.                          DIMM_C1_CPU1's UNC is fail.
-ERROR - 2019-09-27 14:20:13,124 - 99.000 and na are different.                          DIMM_C1_CPU1's UC is fail.
-INFO - 2019-09-27 14:20:13,124 - DIMM_C2_CPU1's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,124 - DIMM_C2_CPU1's sensor number is pass.
-INFO - 2019-09-27 14:20:13,124 - DIMM_C2_CPU1's entity id is pass.
-INFO - 2019-09-27 14:20:13,124 - DIMM_C2_CPU1's sensor type is pass.
-INFO - 2019-09-27 14:20:13,124 - DIMM_C2_CPU1's LC is pass.
-INFO - 2019-09-27 14:20:13,124 - DIMM_C2_CPU1's LNC is pass.
-INFO - 2019-09-27 14:20:13,124 - DIMM_C2_CPU1's UNC is pass.
-INFO - 2019-09-27 14:20:13,124 - DIMM_C2_CPU1's UC is pass.
-INFO - 2019-09-27 14:20:13,124 - DIMM_D1_CPU1's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,124 - DIMM_D1_CPU1's sensor number is pass.
-INFO - 2019-09-27 14:20:13,125 - DIMM_D1_CPU1's entity id is pass.
-INFO - 2019-09-27 14:20:13,125 - DIMM_D1_CPU1's sensor type is pass.
-INFO - 2019-09-27 14:20:13,125 - DIMM_D1_CPU1's LC is pass.
-INFO - 2019-09-27 14:20:13,125 - DIMM_D1_CPU1's LNC is pass.
-INFO - 2019-09-27 14:20:13,125 - DIMM_D1_CPU1's UNC is pass.
-INFO - 2019-09-27 14:20:13,125 - DIMM_D1_CPU1's UC is pass.
-INFO - 2019-09-27 14:20:13,125 - DIMM_D2_CPU1's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,125 - DIMM_D2_CPU1's sensor number is pass.
-INFO - 2019-09-27 14:20:13,125 - DIMM_D2_CPU1's entity id is pass.
-INFO - 2019-09-27 14:20:13,125 - DIMM_D2_CPU1's sensor type is pass.
-INFO - 2019-09-27 14:20:13,125 - DIMM_D2_CPU1's LC is pass.
-INFO - 2019-09-27 14:20:13,125 - DIMM_D2_CPU1's LNC is pass.
-INFO - 2019-09-27 14:20:13,125 - DIMM_D2_CPU1's UNC is pass.
-INFO - 2019-09-27 14:20:13,125 - DIMM_D2_CPU1's UC is pass.
-INFO - 2019-09-27 14:20:13,125 - DIMM_E1_CPU1's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,125 - DIMM_E1_CPU1's sensor number is pass.
-INFO - 2019-09-27 14:20:13,125 - DIMM_E1_CPU1's entity id is pass.
-INFO - 2019-09-27 14:20:13,125 - DIMM_E1_CPU1's sensor type is pass.
-INFO - 2019-09-27 14:20:13,125 - DIMM_E1_CPU1's LC is pass.
-INFO - 2019-09-27 14:20:13,125 - DIMM_E1_CPU1's LNC is pass.
-INFO - 2019-09-27 14:20:13,125 - DIMM_E1_CPU1's UNC is pass.
-INFO - 2019-09-27 14:20:13,130 - DIMM_E1_CPU1's UC is pass.
-INFO - 2019-09-27 14:20:13,130 - DIMM_E2_CPU1's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,130 - DIMM_E2_CPU1's sensor number is pass.
-INFO - 2019-09-27 14:20:13,130 - DIMM_E2_CPU1's entity id is pass.
-INFO - 2019-09-27 14:20:13,130 - DIMM_E2_CPU1's sensor type is pass.
-INFO - 2019-09-27 14:20:13,130 - DIMM_E2_CPU1's LC is pass.
-INFO - 2019-09-27 14:20:13,130 - DIMM_E2_CPU1's LNC is pass.
-INFO - 2019-09-27 14:20:13,130 - DIMM_E2_CPU1's UNC is pass.
-INFO - 2019-09-27 14:20:13,130 - DIMM_E2_CPU1's UC is pass.
-INFO - 2019-09-27 14:20:13,130 - DIMM_F1_CPU1's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,130 - DIMM_F1_CPU1's sensor number is pass.
-INFO - 2019-09-27 14:20:13,130 - DIMM_F1_CPU1's entity id is pass.
-INFO - 2019-09-27 14:20:13,131 - DIMM_F1_CPU1's sensor type is pass.
-INFO - 2019-09-27 14:20:13,131 - DIMM_F1_CPU1's LC is pass.
-INFO - 2019-09-27 14:20:13,131 - DIMM_F1_CPU1's LNC is pass.
-INFO - 2019-09-27 14:20:13,131 - DIMM_F1_CPU1's UNC is pass.
-INFO - 2019-09-27 14:20:13,131 - DIMM_F1_CPU1's UC is pass.
-INFO - 2019-09-27 14:20:13,131 - DIMM_F2_CPU1's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,131 - DIMM_F2_CPU1's sensor number is pass.
-INFO - 2019-09-27 14:20:13,131 - DIMM_F2_CPU1's entity id is pass.
-INFO - 2019-09-27 14:20:13,131 - DIMM_F2_CPU1's sensor type is pass.
-INFO - 2019-09-27 14:20:13,131 - DIMM_F2_CPU1's LC is pass.
-INFO - 2019-09-27 14:20:13,131 - DIMM_F2_CPU1's LNC is pass.
-INFO - 2019-09-27 14:20:13,131 - DIMM_F2_CPU1's UNC is pass.
-INFO - 2019-09-27 14:20:13,132 - DIMM_F2_CPU1's UC is pass.
-INFO - 2019-09-27 14:20:13,132 - DIMM_A1_CPU2's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,132 - DIMM_A1_CPU2's sensor number is pass.
-INFO - 2019-09-27 14:20:13,132 - DIMM_A1_CPU2's entity id is pass.
-INFO - 2019-09-27 14:20:13,132 - DIMM_A1_CPU2's sensor type is pass.
-INFO - 2019-09-27 14:20:13,132 - DIMM_A1_CPU2's LC is pass.
-INFO - 2019-09-27 14:20:13,132 - DIMM_A1_CPU2's LNC is pass.
-INFO - 2019-09-27 14:20:13,132 - DIMM_A1_CPU2's UNC is pass.
-INFO - 2019-09-27 14:20:13,132 - DIMM_A1_CPU2's UC is pass.
-INFO - 2019-09-27 14:20:13,132 - DIMM_A2_CPU2's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,132 - DIMM_A2_CPU2's sensor number is pass.
-INFO - 2019-09-27 14:20:13,132 - DIMM_A2_CPU2's entity id is pass.
-INFO - 2019-09-27 14:20:13,132 - DIMM_A2_CPU2's sensor type is pass.
-INFO - 2019-09-27 14:20:13,132 - DIMM_A2_CPU2's LC is pass.
-INFO - 2019-09-27 14:20:13,132 - DIMM_A2_CPU2's LNC is pass.
-INFO - 2019-09-27 14:20:13,132 - DIMM_A2_CPU2's UNC is pass.
-INFO - 2019-09-27 14:20:13,132 - DIMM_A2_CPU2's UC is pass.
-INFO - 2019-09-27 14:20:13,132 - DIMM_B1_CPU2's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,132 - DIMM_B1_CPU2's sensor number is pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_B1_CPU2's entity id is pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_B1_CPU2's sensor type is pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_B1_CPU2's LC is pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_B1_CPU2's LNC is pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_B1_CPU2's UNC is pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_B1_CPU2's UC is pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_B2_CPU2's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_B2_CPU2's sensor number is pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_B2_CPU2's entity id is pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_B2_CPU2's sensor type is pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_B2_CPU2's LC is pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_B2_CPU2's LNC is pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_B2_CPU2's UNC is pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_B2_CPU2's UC is pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_C1_CPU2's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_C1_CPU2's sensor number is pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_C1_CPU2's entity id is pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_C1_CPU2's sensor type is pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_C1_CPU2's LC is pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_C1_CPU2's LNC is pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_C1_CPU2's UNC is pass.
-INFO - 2019-09-27 14:20:13,133 - DIMM_C1_CPU2's UC is pass.
-INFO - 2019-09-27 14:20:13,134 - DIMM_C2_CPU2's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,134 - DIMM_C2_CPU2's sensor number is pass.
-INFO - 2019-09-27 14:20:13,134 - DIMM_C2_CPU2's entity id is pass.
-INFO - 2019-09-27 14:20:13,134 - DIMM_C2_CPU2's sensor type is pass.
-INFO - 2019-09-27 14:20:13,134 - DIMM_C2_CPU2's LC is pass.
-INFO - 2019-09-27 14:20:13,134 - DIMM_C2_CPU2's LNC is pass.
-INFO - 2019-09-27 14:20:13,134 - DIMM_C2_CPU2's UNC is pass.
-INFO - 2019-09-27 14:20:13,134 - DIMM_C2_CPU2's UC is pass.
-INFO - 2019-09-27 14:20:13,134 - DIMM_D1_CPU2's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,134 - DIMM_D1_CPU2's sensor number is pass.
-INFO - 2019-09-27 14:20:13,134 - DIMM_D1_CPU2's entity id is pass.
-INFO - 2019-09-27 14:20:13,134 - DIMM_D1_CPU2's sensor type is pass.
-INFO - 2019-09-27 14:20:13,134 - DIMM_D1_CPU2's LC is pass.
-INFO - 2019-09-27 14:20:13,134 - DIMM_D1_CPU2's LNC is pass.
-INFO - 2019-09-27 14:20:13,134 - DIMM_D1_CPU2's UNC is pass.
-INFO - 2019-09-27 14:20:13,134 - DIMM_D1_CPU2's UC is pass.
-INFO - 2019-09-27 14:20:13,134 - DIMM_D2_CPU2's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,134 - DIMM_D2_CPU2's sensor number is pass.
-INFO - 2019-09-27 14:20:13,135 - DIMM_D2_CPU2's entity id is pass.
-INFO - 2019-09-27 14:20:13,135 - DIMM_D2_CPU2's sensor type is pass.
-INFO - 2019-09-27 14:20:13,135 - DIMM_D2_CPU2's LC is pass.
-INFO - 2019-09-27 14:20:13,135 - DIMM_D2_CPU2's LNC is pass.
-INFO - 2019-09-27 14:20:13,135 - DIMM_D2_CPU2's UNC is pass.
-INFO - 2019-09-27 14:20:13,135 - DIMM_D2_CPU2's UC is pass.
-INFO - 2019-09-27 14:20:13,135 - DIMM_E1_CPU2's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,135 - DIMM_E1_CPU2's sensor number is pass.
-INFO - 2019-09-27 14:20:13,135 - DIMM_E1_CPU2's entity id is pass.
-INFO - 2019-09-27 14:20:13,135 - DIMM_E1_CPU2's sensor type is pass.
-INFO - 2019-09-27 14:20:13,135 - DIMM_E1_CPU2's LC is pass.
-INFO - 2019-09-27 14:20:13,135 - DIMM_E1_CPU2's LNC is pass.
-INFO - 2019-09-27 14:20:13,135 - DIMM_E1_CPU2's UNC is pass.
-INFO - 2019-09-27 14:20:13,135 - DIMM_E1_CPU2's UC is pass.
-INFO - 2019-09-27 14:20:13,135 - DIMM_E2_CPU2's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,135 - DIMM_E2_CPU2's sensor number is pass.
-INFO - 2019-09-27 14:20:13,135 - DIMM_E2_CPU2's entity id is pass.
-INFO - 2019-09-27 14:20:13,135 - DIMM_E2_CPU2's sensor type is pass.
-INFO - 2019-09-27 14:20:13,135 - DIMM_E2_CPU2's LC is pass.
-INFO - 2019-09-27 14:20:13,135 - DIMM_E2_CPU2's LNC is pass.
-INFO - 2019-09-27 14:20:13,135 - DIMM_E2_CPU2's UNC is pass.
-INFO - 2019-09-27 14:20:13,136 - DIMM_E2_CPU2's UC is pass.
-INFO - 2019-09-27 14:20:13,136 - DIMM_F1_CPU2's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,136 - DIMM_F1_CPU2's sensor number is pass.
-INFO - 2019-09-27 14:20:13,136 - DIMM_F1_CPU2's entity id is pass.
-INFO - 2019-09-27 14:20:13,136 - DIMM_F1_CPU2's sensor type is pass.
-INFO - 2019-09-27 14:20:13,136 - DIMM_F1_CPU2's LC is pass.
-INFO - 2019-09-27 14:20:13,136 - DIMM_F1_CPU2's LNC is pass.
-INFO - 2019-09-27 14:20:13,136 - DIMM_F1_CPU2's UNC is pass.
-INFO - 2019-09-27 14:20:13,136 - DIMM_F1_CPU2's UC is pass.
-INFO - 2019-09-27 14:20:13,136 - DIMM_F2_CPU2's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,136 - DIMM_F2_CPU2's sensor number is pass.
-INFO - 2019-09-27 14:20:13,136 - DIMM_F2_CPU2's entity id is pass.
-INFO - 2019-09-27 14:20:13,136 - DIMM_F2_CPU2's sensor type is pass.
-INFO - 2019-09-27 14:20:13,136 - DIMM_F2_CPU2's LC is pass.
-INFO - 2019-09-27 14:20:13,136 - DIMM_F2_CPU2's LNC is pass.
-INFO - 2019-09-27 14:20:13,136 - DIMM_F2_CPU2's UNC is pass.
-INFO - 2019-09-27 14:20:13,136 - DIMM_F2_CPU2's UC is pass.
-INFO - 2019-09-27 14:20:13,136 - PCH_Temp's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,136 - PCH_Temp's sensor number is pass.
-INFO - 2019-09-27 14:20:13,137 - PCH_Temp's entity id is pass.
-INFO - 2019-09-27 14:20:13,137 - PCH_Temp's sensor type is pass.
-INFO - 2019-09-27 14:20:13,137 - PCH_Temp's LC is pass.
-INFO - 2019-09-27 14:20:13,137 - PCH_Temp's LNC is pass.
-INFO - 2019-09-27 14:20:13,137 - PCH_Temp's UNC is pass.
-INFO - 2019-09-27 14:20:13,137 - PCH_Temp's UC is pass.
-INFO - 2019-09-27 14:20:13,137 - PSU0_Temp's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,137 - PSU0_Temp's sensor number is pass.
-INFO - 2019-09-27 14:20:13,137 - PSU0_Temp's entity id is pass.
-INFO - 2019-09-27 14:20:13,137 - PSU0_Temp's sensor type is pass.
-INFO - 2019-09-27 14:20:13,137 - PSU0_Temp's LC is pass.
-INFO - 2019-09-27 14:20:13,137 - PSU0_Temp's LNC is pass.
-INFO - 2019-09-27 14:20:13,137 - PSU0_Temp's UNC is pass.
-INFO - 2019-09-27 14:20:13,137 - PSU0_Temp's UC is pass.
-INFO - 2019-09-27 14:20:13,137 - PSU1_Temp's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,137 - PSU1_Temp's sensor number is pass.
-INFO - 2019-09-27 14:20:13,137 - PSU1_Temp's entity id is pass.
-INFO - 2019-09-27 14:20:13,137 - PSU1_Temp's sensor type is pass.
-INFO - 2019-09-27 14:20:13,137 - PSU1_Temp's LC is pass.
-INFO - 2019-09-27 14:20:13,138 - PSU1_Temp's LNC is pass.
-INFO - 2019-09-27 14:20:13,138 - PSU1_Temp's UNC is pass.
-INFO - 2019-09-27 14:20:13,138 - PSU1_Temp's UC is pass.
-INFO - 2019-09-27 14:20:13,138 - P12V_AUX's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,138 - P12V_AUX's sensor number is pass.
-INFO - 2019-09-27 14:20:13,138 - P12V_AUX's entity id is pass.
-INFO - 2019-09-27 14:20:13,138 - P12V_AUX's sensor type is pass.
-INFO - 2019-09-27 14:20:13,138 - P12V_AUX's LC is pass.
-INFO - 2019-09-27 14:20:13,138 - P12V_AUX's LNC is pass.
-INFO - 2019-09-27 14:20:13,138 - P12V_AUX's UNC is pass.
-INFO - 2019-09-27 14:20:13,138 - P12V_AUX's UC is pass.
-INFO - 2019-09-27 14:20:13,138 - P5V_AUX's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,138 - P5V_AUX's sensor number is pass.
-INFO - 2019-09-27 14:20:13,138 - P5V_AUX's entity id is pass.
-INFO - 2019-09-27 14:20:13,138 - P5V_AUX's sensor type is pass.
-INFO - 2019-09-27 14:20:13,138 - P5V_AUX's LC is pass.
-INFO - 2019-09-27 14:20:13,138 - P5V_AUX's LNC is pass.
-INFO - 2019-09-27 14:20:13,138 - P5V_AUX's UNC is pass.
-INFO - 2019-09-27 14:20:13,138 - P5V_AUX's UC is pass.
-INFO - 2019-09-27 14:20:13,138 - P3V3_AUX's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,138 - P3V3_AUX's sensor number is pass.
-INFO - 2019-09-27 14:20:13,139 - P3V3_AUX's entity id is pass.
-INFO - 2019-09-27 14:20:13,139 - P3V3_AUX's sensor type is pass.
-INFO - 2019-09-27 14:20:13,139 - P3V3_AUX's LC is pass.
-INFO - 2019-09-27 14:20:13,139 - P3V3_AUX's LNC is pass.
-INFO - 2019-09-27 14:20:13,139 - P3V3_AUX's UNC is pass.
-INFO - 2019-09-27 14:20:13,139 - P3V3_AUX's UC is pass.
-INFO - 2019-09-27 14:20:13,139 - P1V8_PCH_AUX's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,139 - P1V8_PCH_AUX's sensor number is pass.
-INFO - 2019-09-27 14:20:13,139 - P1V8_PCH_AUX's entity id is pass.
-INFO - 2019-09-27 14:20:13,139 - P1V8_PCH_AUX's sensor type is pass.
-INFO - 2019-09-27 14:20:13,139 - P1V8_PCH_AUX's LC is pass.
-INFO - 2019-09-27 14:20:13,139 - P1V8_PCH_AUX's LNC is pass.
-INFO - 2019-09-27 14:20:13,139 - P1V8_PCH_AUX's UNC is pass.
-INFO - 2019-09-27 14:20:13,139 - P1V8_PCH_AUX's UC is pass.
-INFO - 2019-09-27 14:20:13,141 - PVNN_PCH_AUX's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,141 - PVNN_PCH_AUX's sensor number is pass.
-INFO - 2019-09-27 14:20:13,141 - PVNN_PCH_AUX's entity id is pass.
-INFO - 2019-09-27 14:20:13,141 - PVNN_PCH_AUX's sensor type is pass.
-INFO - 2019-09-27 14:20:13,142 - PVNN_PCH_AUX's LC is pass.
-INFO - 2019-09-27 14:20:13,142 - PVNN_PCH_AUX's LNC is pass.
-INFO - 2019-09-27 14:20:13,142 - PVNN_PCH_AUX's UNC is pass.
-INFO - 2019-09-27 14:20:13,142 - PVNN_PCH_AUX's UC is pass.
-INFO - 2019-09-27 14:20:13,142 - P1V05_PCH_AUX's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,142 - P1V05_PCH_AUX's sensor number is pass.
-INFO - 2019-09-27 14:20:13,143 - P1V05_PCH_AUX's entity id is pass.
-INFO - 2019-09-27 14:20:13,143 - P1V05_PCH_AUX's sensor type is pass.
-INFO - 2019-09-27 14:20:13,143 - P1V05_PCH_AUX's LC is pass.
-INFO - 2019-09-27 14:20:13,144 - P1V05_PCH_AUX's LNC is pass.
-INFO - 2019-09-27 14:20:13,144 - P1V05_PCH_AUX's UNC is pass.
-INFO - 2019-09-27 14:20:13,144 - P1V05_PCH_AUX's UC is pass.
-INFO - 2019-09-27 14:20:13,144 - P1V2_DDR_BMC's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,144 - P1V2_DDR_BMC's sensor number is pass.
-INFO - 2019-09-27 14:20:13,144 - P1V2_DDR_BMC's entity id is pass.
-INFO - 2019-09-27 14:20:13,144 - P1V2_DDR_BMC's sensor type is pass.
-INFO - 2019-09-27 14:20:13,145 - P1V2_DDR_BMC's LC is pass.
-INFO - 2019-09-27 14:20:13,145 - P1V2_DDR_BMC's LNC is pass.
-INFO - 2019-09-27 14:20:13,145 - P1V2_DDR_BMC's UNC is pass.
-INFO - 2019-09-27 14:20:13,145 - P1V2_DDR_BMC's UC is pass.
-INFO - 2019-09-27 14:20:13,145 - P1V15_BMC's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,145 - P1V15_BMC's sensor number is pass.
-INFO - 2019-09-27 14:20:13,145 - P1V15_BMC's entity id is pass.
-INFO - 2019-09-27 14:20:13,145 - P1V15_BMC's sensor type is pass.
-INFO - 2019-09-27 14:20:13,145 - P1V15_BMC's LC is pass.
-INFO - 2019-09-27 14:20:13,145 - P1V15_BMC's LNC is pass.
-INFO - 2019-09-27 14:20:13,145 - P1V15_BMC's UNC is pass.
-INFO - 2019-09-27 14:20:13,145 - P1V15_BMC's UC is pass.
-INFO - 2019-09-27 14:20:13,145 - PVCCIO_CPU1's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,145 - PVCCIO_CPU1's sensor number is pass.
-INFO - 2019-09-27 14:20:13,145 - PVCCIO_CPU1's entity id is pass.
-INFO - 2019-09-27 14:20:13,145 - PVCCIO_CPU1's sensor type is pass.
-INFO - 2019-09-27 14:20:13,145 - PVCCIO_CPU1's LC is pass.
-INFO - 2019-09-27 14:20:13,146 - PVCCIO_CPU1's LNC is pass.
-INFO - 2019-09-27 14:20:13,146 - PVCCIO_CPU1's UNC is pass.
-INFO - 2019-09-27 14:20:13,146 - PVCCIO_CPU1's UC is pass.
-ERROR - 2019-09-27 14:20:13,146 - spec don't have PVCCIO_CPU2 sensor_name. 
+INFO - 2019-09-27 16:01:26,912 - Ambient_Temp's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,913 - Ambient_Temp's sensor number is pass.
+INFO - 2019-09-27 16:01:26,913 - Ambient_Temp's entity id is pass.
+INFO - 2019-09-27 16:01:26,913 - Ambient_Temp's sensor type is pass.
+INFO - 2019-09-27 16:01:26,913 - Ambient_Temp's LC is pass.
+ERROR - 2019-09-27 16:01:26,913 - na and 7 are different.                          Ambient_Temp's LNC is fail.
+ERROR - 2019-09-27 16:01:26,914 - 60.000 and 42 are different.                             Ambient_Temp's UNC is fail.
+ERROR - 2019-09-27 16:01:26,914 - 70.000 and 45 are different.                             Ambient_Temp's UC is fail.
+INFO - 2019-09-27 16:01:26,914 - Outlet_Temp's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,914 - Outlet_Temp's sensor number is pass.
+INFO - 2019-09-27 16:01:26,914 - Outlet_Temp's entity id is pass.
+INFO - 2019-09-27 16:01:26,914 - Outlet_Temp's sensor type is pass.
+INFO - 2019-09-27 16:01:26,914 - Outlet_Temp's LC is pass.
+INFO - 2019-09-27 16:01:26,914 - Outlet_Temp's LNC is pass.
+ERROR - 2019-09-27 16:01:26,915 - 60.000 and na are different.                          Outlet_Temp's UNC is fail.
+ERROR - 2019-09-27 16:01:26,915 - 70.000 and na are different.                          Outlet_Temp's UC is fail.
+INFO - 2019-09-27 16:01:26,915 - Die_CPU1's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,915 - Die_CPU1's sensor number is pass.
+INFO - 2019-09-27 16:01:26,915 - Die_CPU1's entity id is pass.
+INFO - 2019-09-27 16:01:26,915 - Die_CPU1's sensor type is pass.
+INFO - 2019-09-27 16:01:26,915 - Die_CPU1's LC is pass.
+INFO - 2019-09-27 16:01:26,915 - Die_CPU1's LNC is pass.
+ERROR - 2019-09-27 16:01:26,915 - 81.000 and na are different.                          Die_CPU1's UNC is fail.
+ERROR - 2019-09-27 16:01:26,915 - 91.000 and na are different.                          Die_CPU1's UC is fail.
+INFO - 2019-09-27 16:01:26,916 - Die_CPU2's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,916 - Die_CPU2's sensor number is pass.
+INFO - 2019-09-27 16:01:26,916 - Die_CPU2's entity id is pass.
+INFO - 2019-09-27 16:01:26,916 - Die_CPU2's sensor type is pass.
+INFO - 2019-09-27 16:01:26,916 - Die_CPU2's LC is pass.
+INFO - 2019-09-27 16:01:26,916 - Die_CPU2's LNC is pass.
+INFO - 2019-09-27 16:01:26,916 - Die_CPU2's UNC is pass.
+INFO - 2019-09-27 16:01:26,916 - Die_CPU2's UC is pass.
+INFO - 2019-09-27 16:01:26,916 - CPU1_VR_Temp's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,916 - CPU1_VR_Temp's sensor number is pass.
+INFO - 2019-09-27 16:01:26,916 - CPU1_VR_Temp's entity id is pass.
+INFO - 2019-09-27 16:01:26,916 - CPU1_VR_Temp's sensor type is pass.
+INFO - 2019-09-27 16:01:26,916 - CPU1_VR_Temp's LC is pass.
+INFO - 2019-09-27 16:01:26,916 - CPU1_VR_Temp's LNC is pass.
+INFO - 2019-09-27 16:01:26,916 - CPU1_VR_Temp's UNC is pass.
+INFO - 2019-09-27 16:01:26,916 - CPU1_VR_Temp's UC is pass.
+INFO - 2019-09-27 16:01:26,917 - CPU2_VR_Temp's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,917 - CPU2_VR_Temp's sensor number is pass.
+INFO - 2019-09-27 16:01:26,917 - CPU2_VR_Temp's entity id is pass.
+INFO - 2019-09-27 16:01:26,917 - CPU2_VR_Temp's sensor type is pass.
+INFO - 2019-09-27 16:01:26,917 - CPU2_VR_Temp's LC is pass.
+INFO - 2019-09-27 16:01:26,917 - CPU2_VR_Temp's LNC is pass.
+INFO - 2019-09-27 16:01:26,917 - CPU2_VR_Temp's UNC is pass.
+INFO - 2019-09-27 16:01:26,917 - CPU2_VR_Temp's UC is pass.
+INFO - 2019-09-27 16:01:26,917 - VDDQ_ABC_CPU1's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,917 - VDDQ_ABC_CPU1's sensor number is pass.
+ERROR - 2019-09-27 16:01:26,917 - 3.0 and 32 are different.                        VDDQ_ABC_CPU1's entity id is fail.
+INFO - 2019-09-27 16:01:26,917 - VDDQ_ABC_CPU1's sensor type is pass.
+INFO - 2019-09-27 16:01:26,917 - VDDQ_ABC_CPU1's LC is pass.
+INFO - 2019-09-27 16:01:26,917 - VDDQ_ABC_CPU1's LNC is pass.
+INFO - 2019-09-27 16:01:26,917 - VDDQ_ABC_CPU1's UNC is pass.
+INFO - 2019-09-27 16:01:26,917 - VDDQ_ABC_CPU1's UC is pass.
+INFO - 2019-09-27 16:01:26,917 - VDDQ_DEF_CPU1's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,917 - VDDQ_DEF_CPU1's sensor number is pass.
+ERROR - 2019-09-27 16:01:26,917 - 3.0 and 32 are different.                        VDDQ_DEF_CPU1's entity id is fail.
+INFO - 2019-09-27 16:01:26,917 - VDDQ_DEF_CPU1's sensor type is pass.
+INFO - 2019-09-27 16:01:26,918 - VDDQ_DEF_CPU1's LC is pass.
+INFO - 2019-09-27 16:01:26,918 - VDDQ_DEF_CPU1's LNC is pass.
+INFO - 2019-09-27 16:01:26,918 - VDDQ_DEF_CPU1's UNC is pass.
+INFO - 2019-09-27 16:01:26,918 - VDDQ_DEF_CPU1's UC is pass.
+INFO - 2019-09-27 16:01:26,918 - VDDQ_ABC_CPU2's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,918 - VDDQ_ABC_CPU2's sensor number is pass.
+ERROR - 2019-09-27 16:01:26,918 - 3.0 and 32 are different.                        VDDQ_ABC_CPU2's entity id is fail.
+INFO - 2019-09-27 16:01:26,918 - VDDQ_ABC_CPU2's sensor type is pass.
+INFO - 2019-09-27 16:01:26,918 - VDDQ_ABC_CPU2's LC is pass.
+INFO - 2019-09-27 16:01:26,918 - VDDQ_ABC_CPU2's LNC is pass.
+INFO - 2019-09-27 16:01:26,918 - VDDQ_ABC_CPU2's UNC is pass.
+INFO - 2019-09-27 16:01:26,918 - VDDQ_ABC_CPU2's UC is pass.
+INFO - 2019-09-27 16:01:26,918 - VDDQ_DEF_CPU2's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,918 - VDDQ_DEF_CPU2's sensor number is pass.
+ERROR - 2019-09-27 16:01:26,918 - 3.0 and 32 are different.                        VDDQ_DEF_CPU2's entity id is fail.
+INFO - 2019-09-27 16:01:26,918 - VDDQ_DEF_CPU2's sensor type is pass.
+INFO - 2019-09-27 16:01:26,918 - VDDQ_DEF_CPU2's LC is pass.
+INFO - 2019-09-27 16:01:26,918 - VDDQ_DEF_CPU2's LNC is pass.
+INFO - 2019-09-27 16:01:26,919 - VDDQ_DEF_CPU2's UNC is pass.
+INFO - 2019-09-27 16:01:26,919 - VDDQ_DEF_CPU2's UC is pass.
+INFO - 2019-09-27 16:01:26,919 - NIC_Temp's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,919 - NIC_Temp's sensor number is pass.
+INFO - 2019-09-27 16:01:26,919 - NIC_Temp's entity id is pass.
+INFO - 2019-09-27 16:01:26,919 - NIC_Temp's sensor type is pass.
+INFO - 2019-09-27 16:01:26,919 - NIC_Temp's LC is pass.
+INFO - 2019-09-27 16:01:26,919 - NIC_Temp's LNC is pass.
+INFO - 2019-09-27 16:01:26,919 - NIC_Temp's UNC is pass.
+INFO - 2019-09-27 16:01:26,919 - NIC_Temp's UC is pass.
+INFO - 2019-09-27 16:01:26,919 - DIMM_A1_CPU1's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,919 - DIMM_A1_CPU1's sensor number is pass.
+INFO - 2019-09-27 16:01:26,919 - DIMM_A1_CPU1's entity id is pass.
+INFO - 2019-09-27 16:01:26,919 - DIMM_A1_CPU1's sensor type is pass.
+INFO - 2019-09-27 16:01:26,919 - DIMM_A1_CPU1's LC is pass.
+INFO - 2019-09-27 16:01:26,919 - DIMM_A1_CPU1's LNC is pass.
+INFO - 2019-09-27 16:01:26,919 - DIMM_A1_CPU1's UNC is pass.
+INFO - 2019-09-27 16:01:26,920 - DIMM_A1_CPU1's UC is pass.
+INFO - 2019-09-27 16:01:26,920 - DIMM_A2_CPU1's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,920 - DIMM_A2_CPU1's sensor number is pass.
+INFO - 2019-09-27 16:01:26,920 - DIMM_A2_CPU1's entity id is pass.
+INFO - 2019-09-27 16:01:26,920 - DIMM_A2_CPU1's sensor type is pass.
+INFO - 2019-09-27 16:01:26,920 - DIMM_A2_CPU1's LC is pass.
+INFO - 2019-09-27 16:01:26,920 - DIMM_A2_CPU1's LNC is pass.
+INFO - 2019-09-27 16:01:26,920 - DIMM_A2_CPU1's UNC is pass.
+INFO - 2019-09-27 16:01:26,920 - DIMM_A2_CPU1's UC is pass.
+INFO - 2019-09-27 16:01:26,920 - DIMM_B1_CPU1's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,920 - DIMM_B1_CPU1's sensor number is pass.
+INFO - 2019-09-27 16:01:26,920 - DIMM_B1_CPU1's entity id is pass.
+INFO - 2019-09-27 16:01:26,920 - DIMM_B1_CPU1's sensor type is pass.
+INFO - 2019-09-27 16:01:26,920 - DIMM_B1_CPU1's LC is pass.
+INFO - 2019-09-27 16:01:26,920 - DIMM_B1_CPU1's LNC is pass.
+INFO - 2019-09-27 16:01:26,920 - DIMM_B1_CPU1's UNC is pass.
+INFO - 2019-09-27 16:01:26,920 - DIMM_B1_CPU1's UC is pass.
+INFO - 2019-09-27 16:01:26,921 - DIMM_B2_CPU1's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,921 - DIMM_B2_CPU1's sensor number is pass.
+INFO - 2019-09-27 16:01:26,921 - DIMM_B2_CPU1's entity id is pass.
+INFO - 2019-09-27 16:01:26,921 - DIMM_B2_CPU1's sensor type is pass.
+INFO - 2019-09-27 16:01:26,921 - DIMM_B2_CPU1's LC is pass.
+INFO - 2019-09-27 16:01:26,921 - DIMM_B2_CPU1's LNC is pass.
+INFO - 2019-09-27 16:01:26,921 - DIMM_B2_CPU1's UNC is pass.
+INFO - 2019-09-27 16:01:26,921 - DIMM_B2_CPU1's UC is pass.
+INFO - 2019-09-27 16:01:26,921 - DIMM_C1_CPU1's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,921 - DIMM_C1_CPU1's sensor number is pass.
+INFO - 2019-09-27 16:01:26,921 - DIMM_C1_CPU1's entity id is pass.
+INFO - 2019-09-27 16:01:26,921 - DIMM_C1_CPU1's sensor type is pass.
+INFO - 2019-09-27 16:01:26,921 - DIMM_C1_CPU1's LC is pass.
+INFO - 2019-09-27 16:01:26,921 - DIMM_C1_CPU1's LNC is pass.
+ERROR - 2019-09-27 16:01:26,921 - 89.000 and na are different.                          DIMM_C1_CPU1's UNC is fail.
+ERROR - 2019-09-27 16:01:26,921 - 99.000 and na are different.                          DIMM_C1_CPU1's UC is fail.
+INFO - 2019-09-27 16:01:26,921 - DIMM_C2_CPU1's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,922 - DIMM_C2_CPU1's sensor number is pass.
+INFO - 2019-09-27 16:01:26,922 - DIMM_C2_CPU1's entity id is pass.
+INFO - 2019-09-27 16:01:26,922 - DIMM_C2_CPU1's sensor type is pass.
+INFO - 2019-09-27 16:01:26,922 - DIMM_C2_CPU1's LC is pass.
+INFO - 2019-09-27 16:01:26,922 - DIMM_C2_CPU1's LNC is pass.
+INFO - 2019-09-27 16:01:26,922 - DIMM_C2_CPU1's UNC is pass.
+INFO - 2019-09-27 16:01:26,922 - DIMM_C2_CPU1's UC is pass.
+INFO - 2019-09-27 16:01:26,922 - DIMM_D1_CPU1's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,922 - DIMM_D1_CPU1's sensor number is pass.
+INFO - 2019-09-27 16:01:26,922 - DIMM_D1_CPU1's entity id is pass.
+INFO - 2019-09-27 16:01:26,922 - DIMM_D1_CPU1's sensor type is pass.
+INFO - 2019-09-27 16:01:26,922 - DIMM_D1_CPU1's LC is pass.
+INFO - 2019-09-27 16:01:26,922 - DIMM_D1_CPU1's LNC is pass.
+INFO - 2019-09-27 16:01:26,922 - DIMM_D1_CPU1's UNC is pass.
+INFO - 2019-09-27 16:01:26,922 - DIMM_D1_CPU1's UC is pass.
+INFO - 2019-09-27 16:01:26,922 - DIMM_D2_CPU1's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,922 - DIMM_D2_CPU1's sensor number is pass.
+INFO - 2019-09-27 16:01:26,922 - DIMM_D2_CPU1's entity id is pass.
+INFO - 2019-09-27 16:01:26,922 - DIMM_D2_CPU1's sensor type is pass.
+INFO - 2019-09-27 16:01:26,922 - DIMM_D2_CPU1's LC is pass.
+INFO - 2019-09-27 16:01:26,923 - DIMM_D2_CPU1's LNC is pass.
+INFO - 2019-09-27 16:01:26,923 - DIMM_D2_CPU1's UNC is pass.
+INFO - 2019-09-27 16:01:26,923 - DIMM_D2_CPU1's UC is pass.
+INFO - 2019-09-27 16:01:26,923 - DIMM_E1_CPU1's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,923 - DIMM_E1_CPU1's sensor number is pass.
+INFO - 2019-09-27 16:01:26,923 - DIMM_E1_CPU1's entity id is pass.
+INFO - 2019-09-27 16:01:26,923 - DIMM_E1_CPU1's sensor type is pass.
+INFO - 2019-09-27 16:01:26,923 - DIMM_E1_CPU1's LC is pass.
+INFO - 2019-09-27 16:01:26,923 - DIMM_E1_CPU1's LNC is pass.
+INFO - 2019-09-27 16:01:26,923 - DIMM_E1_CPU1's UNC is pass.
+INFO - 2019-09-27 16:01:26,923 - DIMM_E1_CPU1's UC is pass.
+INFO - 2019-09-27 16:01:26,923 - DIMM_E2_CPU1's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,923 - DIMM_E2_CPU1's sensor number is pass.
+INFO - 2019-09-27 16:01:26,923 - DIMM_E2_CPU1's entity id is pass.
+INFO - 2019-09-27 16:01:26,923 - DIMM_E2_CPU1's sensor type is pass.
+INFO - 2019-09-27 16:01:26,923 - DIMM_E2_CPU1's LC is pass.
+INFO - 2019-09-27 16:01:26,923 - DIMM_E2_CPU1's LNC is pass.
+INFO - 2019-09-27 16:01:26,923 - DIMM_E2_CPU1's UNC is pass.
+INFO - 2019-09-27 16:01:26,924 - DIMM_E2_CPU1's UC is pass.
+INFO - 2019-09-27 16:01:26,924 - DIMM_F1_CPU1's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,924 - DIMM_F1_CPU1's sensor number is pass.
+INFO - 2019-09-27 16:01:26,924 - DIMM_F1_CPU1's entity id is pass.
+INFO - 2019-09-27 16:01:26,924 - DIMM_F1_CPU1's sensor type is pass.
+INFO - 2019-09-27 16:01:26,924 - DIMM_F1_CPU1's LC is pass.
+INFO - 2019-09-27 16:01:26,924 - DIMM_F1_CPU1's LNC is pass.
+INFO - 2019-09-27 16:01:26,924 - DIMM_F1_CPU1's UNC is pass.
+INFO - 2019-09-27 16:01:26,924 - DIMM_F1_CPU1's UC is pass.
+INFO - 2019-09-27 16:01:26,924 - DIMM_F2_CPU1's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,924 - DIMM_F2_CPU1's sensor number is pass.
+INFO - 2019-09-27 16:01:26,924 - DIMM_F2_CPU1's entity id is pass.
+INFO - 2019-09-27 16:01:26,924 - DIMM_F2_CPU1's sensor type is pass.
+INFO - 2019-09-27 16:01:26,924 - DIMM_F2_CPU1's LC is pass.
+INFO - 2019-09-27 16:01:26,924 - DIMM_F2_CPU1's LNC is pass.
+INFO - 2019-09-27 16:01:26,925 - DIMM_F2_CPU1's UNC is pass.
+INFO - 2019-09-27 16:01:26,925 - DIMM_F2_CPU1's UC is pass.
+INFO - 2019-09-27 16:01:26,925 - DIMM_A1_CPU2's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,925 - DIMM_A1_CPU2's sensor number is pass.
+INFO - 2019-09-27 16:01:26,925 - DIMM_A1_CPU2's entity id is pass.
+INFO - 2019-09-27 16:01:26,925 - DIMM_A1_CPU2's sensor type is pass.
+INFO - 2019-09-27 16:01:26,925 - DIMM_A1_CPU2's LC is pass.
+INFO - 2019-09-27 16:01:26,925 - DIMM_A1_CPU2's LNC is pass.
+INFO - 2019-09-27 16:01:26,925 - DIMM_A1_CPU2's UNC is pass.
+INFO - 2019-09-27 16:01:26,925 - DIMM_A1_CPU2's UC is pass.
+INFO - 2019-09-27 16:01:26,925 - DIMM_A2_CPU2's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,926 - DIMM_A2_CPU2's sensor number is pass.
+INFO - 2019-09-27 16:01:26,926 - DIMM_A2_CPU2's entity id is pass.
+INFO - 2019-09-27 16:01:26,926 - DIMM_A2_CPU2's sensor type is pass.
+INFO - 2019-09-27 16:01:26,926 - DIMM_A2_CPU2's LC is pass.
+INFO - 2019-09-27 16:01:26,926 - DIMM_A2_CPU2's LNC is pass.
+INFO - 2019-09-27 16:01:26,926 - DIMM_A2_CPU2's UNC is pass.
+INFO - 2019-09-27 16:01:26,926 - DIMM_A2_CPU2's UC is pass.
+INFO - 2019-09-27 16:01:26,926 - DIMM_B1_CPU2's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,926 - DIMM_B1_CPU2's sensor number is pass.
+INFO - 2019-09-27 16:01:26,926 - DIMM_B1_CPU2's entity id is pass.
+INFO - 2019-09-27 16:01:26,926 - DIMM_B1_CPU2's sensor type is pass.
+INFO - 2019-09-27 16:01:26,926 - DIMM_B1_CPU2's LC is pass.
+INFO - 2019-09-27 16:01:26,926 - DIMM_B1_CPU2's LNC is pass.
+INFO - 2019-09-27 16:01:26,926 - DIMM_B1_CPU2's UNC is pass.
+INFO - 2019-09-27 16:01:26,926 - DIMM_B1_CPU2's UC is pass.
+INFO - 2019-09-27 16:01:26,926 - DIMM_B2_CPU2's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,926 - DIMM_B2_CPU2's sensor number is pass.
+INFO - 2019-09-27 16:01:26,927 - DIMM_B2_CPU2's entity id is pass.
+INFO - 2019-09-27 16:01:26,927 - DIMM_B2_CPU2's sensor type is pass.
+INFO - 2019-09-27 16:01:26,927 - DIMM_B2_CPU2's LC is pass.
+INFO - 2019-09-27 16:01:26,927 - DIMM_B2_CPU2's LNC is pass.
+INFO - 2019-09-27 16:01:26,927 - DIMM_B2_CPU2's UNC is pass.
+INFO - 2019-09-27 16:01:26,927 - DIMM_B2_CPU2's UC is pass.
+INFO - 2019-09-27 16:01:26,927 - DIMM_C1_CPU2's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,927 - DIMM_C1_CPU2's sensor number is pass.
+INFO - 2019-09-27 16:01:26,927 - DIMM_C1_CPU2's entity id is pass.
+INFO - 2019-09-27 16:01:26,927 - DIMM_C1_CPU2's sensor type is pass.
+INFO - 2019-09-27 16:01:26,927 - DIMM_C1_CPU2's LC is pass.
+INFO - 2019-09-27 16:01:26,927 - DIMM_C1_CPU2's LNC is pass.
+INFO - 2019-09-27 16:01:26,927 - DIMM_C1_CPU2's UNC is pass.
+INFO - 2019-09-27 16:01:26,927 - DIMM_C1_CPU2's UC is pass.
+INFO - 2019-09-27 16:01:26,927 - DIMM_C2_CPU2's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,927 - DIMM_C2_CPU2's sensor number is pass.
+INFO - 2019-09-27 16:01:26,927 - DIMM_C2_CPU2's entity id is pass.
+INFO - 2019-09-27 16:01:26,927 - DIMM_C2_CPU2's sensor type is pass.
+INFO - 2019-09-27 16:01:26,928 - DIMM_C2_CPU2's LC is pass.
+INFO - 2019-09-27 16:01:26,928 - DIMM_C2_CPU2's LNC is pass.
+INFO - 2019-09-27 16:01:26,928 - DIMM_C2_CPU2's UNC is pass.
+INFO - 2019-09-27 16:01:26,928 - DIMM_C2_CPU2's UC is pass.
+INFO - 2019-09-27 16:01:26,928 - DIMM_D1_CPU2's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,928 - DIMM_D1_CPU2's sensor number is pass.
+INFO - 2019-09-27 16:01:26,928 - DIMM_D1_CPU2's entity id is pass.
+INFO - 2019-09-27 16:01:26,928 - DIMM_D1_CPU2's sensor type is pass.
+INFO - 2019-09-27 16:01:26,928 - DIMM_D1_CPU2's LC is pass.
+INFO - 2019-09-27 16:01:26,928 - DIMM_D1_CPU2's LNC is pass.
+INFO - 2019-09-27 16:01:26,928 - DIMM_D1_CPU2's UNC is pass.
+INFO - 2019-09-27 16:01:26,928 - DIMM_D1_CPU2's UC is pass.
+INFO - 2019-09-27 16:01:26,928 - DIMM_D2_CPU2's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,928 - DIMM_D2_CPU2's sensor number is pass.
+INFO - 2019-09-27 16:01:26,928 - DIMM_D2_CPU2's entity id is pass.
+INFO - 2019-09-27 16:01:26,929 - DIMM_D2_CPU2's sensor type is pass.
+INFO - 2019-09-27 16:01:26,929 - DIMM_D2_CPU2's LC is pass.
+INFO - 2019-09-27 16:01:26,929 - DIMM_D2_CPU2's LNC is pass.
+INFO - 2019-09-27 16:01:26,929 - DIMM_D2_CPU2's UNC is pass.
+INFO - 2019-09-27 16:01:26,929 - DIMM_D2_CPU2's UC is pass.
+INFO - 2019-09-27 16:01:26,929 - DIMM_E1_CPU2's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,929 - DIMM_E1_CPU2's sensor number is pass.
+INFO - 2019-09-27 16:01:26,929 - DIMM_E1_CPU2's entity id is pass.
+INFO - 2019-09-27 16:01:26,929 - DIMM_E1_CPU2's sensor type is pass.
+INFO - 2019-09-27 16:01:26,929 - DIMM_E1_CPU2's LC is pass.
+INFO - 2019-09-27 16:01:26,929 - DIMM_E1_CPU2's LNC is pass.
+INFO - 2019-09-27 16:01:26,929 - DIMM_E1_CPU2's UNC is pass.
+INFO - 2019-09-27 16:01:26,929 - DIMM_E1_CPU2's UC is pass.
+INFO - 2019-09-27 16:01:26,929 - DIMM_E2_CPU2's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,929 - DIMM_E2_CPU2's sensor number is pass.
+INFO - 2019-09-27 16:01:26,929 - DIMM_E2_CPU2's entity id is pass.
+INFO - 2019-09-27 16:01:26,929 - DIMM_E2_CPU2's sensor type is pass.
+INFO - 2019-09-27 16:01:26,929 - DIMM_E2_CPU2's LC is pass.
+INFO - 2019-09-27 16:01:26,929 - DIMM_E2_CPU2's LNC is pass.
+INFO - 2019-09-27 16:01:26,929 - DIMM_E2_CPU2's UNC is pass.
+INFO - 2019-09-27 16:01:26,930 - DIMM_E2_CPU2's UC is pass.
+INFO - 2019-09-27 16:01:26,930 - DIMM_F1_CPU2's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,930 - DIMM_F1_CPU2's sensor number is pass.
+INFO - 2019-09-27 16:01:26,930 - DIMM_F1_CPU2's entity id is pass.
+INFO - 2019-09-27 16:01:26,930 - DIMM_F1_CPU2's sensor type is pass.
+INFO - 2019-09-27 16:01:26,930 - DIMM_F1_CPU2's LC is pass.
+INFO - 2019-09-27 16:01:26,930 - DIMM_F1_CPU2's LNC is pass.
+INFO - 2019-09-27 16:01:26,930 - DIMM_F1_CPU2's UNC is pass.
+INFO - 2019-09-27 16:01:26,930 - DIMM_F1_CPU2's UC is pass.
+INFO - 2019-09-27 16:01:26,930 - DIMM_F2_CPU2's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,930 - DIMM_F2_CPU2's sensor number is pass.
+INFO - 2019-09-27 16:01:26,930 - DIMM_F2_CPU2's entity id is pass.
+INFO - 2019-09-27 16:01:26,930 - DIMM_F2_CPU2's sensor type is pass.
+INFO - 2019-09-27 16:01:26,930 - DIMM_F2_CPU2's LC is pass.
+INFO - 2019-09-27 16:01:26,930 - DIMM_F2_CPU2's LNC is pass.
+INFO - 2019-09-27 16:01:26,930 - DIMM_F2_CPU2's UNC is pass.
+INFO - 2019-09-27 16:01:26,930 - DIMM_F2_CPU2's UC is pass.
+INFO - 2019-09-27 16:01:26,930 - PCH_Temp's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,931 - PCH_Temp's sensor number is pass.
+INFO - 2019-09-27 16:01:26,931 - PCH_Temp's entity id is pass.
+INFO - 2019-09-27 16:01:26,931 - PCH_Temp's sensor type is pass.
+INFO - 2019-09-27 16:01:26,931 - PCH_Temp's LC is pass.
+INFO - 2019-09-27 16:01:26,931 - PCH_Temp's LNC is pass.
+INFO - 2019-09-27 16:01:26,931 - PCH_Temp's UNC is pass.
+INFO - 2019-09-27 16:01:26,931 - PCH_Temp's UC is pass.
+INFO - 2019-09-27 16:01:26,931 - PSU0_Temp's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,931 - PSU0_Temp's sensor number is pass.
+INFO - 2019-09-27 16:01:26,931 - PSU0_Temp's entity id is pass.
+INFO - 2019-09-27 16:01:26,931 - PSU0_Temp's sensor type is pass.
+INFO - 2019-09-27 16:01:26,931 - PSU0_Temp's LC is pass.
+INFO - 2019-09-27 16:01:26,931 - PSU0_Temp's LNC is pass.
+INFO - 2019-09-27 16:01:26,931 - PSU0_Temp's UNC is pass.
+INFO - 2019-09-27 16:01:26,931 - PSU0_Temp's UC is pass.
+INFO - 2019-09-27 16:01:26,931 - PSU1_Temp's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,932 - PSU1_Temp's sensor number is pass.
+INFO - 2019-09-27 16:01:26,932 - PSU1_Temp's entity id is pass.
+INFO - 2019-09-27 16:01:26,932 - PSU1_Temp's sensor type is pass.
+INFO - 2019-09-27 16:01:26,932 - PSU1_Temp's LC is pass.
+INFO - 2019-09-27 16:01:26,932 - PSU1_Temp's LNC is pass.
+INFO - 2019-09-27 16:01:26,932 - PSU1_Temp's UNC is pass.
+INFO - 2019-09-27 16:01:26,932 - PSU1_Temp's UC is pass.
+INFO - 2019-09-27 16:01:26,932 - P12V_AUX's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,932 - P12V_AUX's sensor number is pass.
+INFO - 2019-09-27 16:01:26,932 - P12V_AUX's entity id is pass.
+INFO - 2019-09-27 16:01:26,932 - P12V_AUX's sensor type is pass.
+INFO - 2019-09-27 16:01:26,932 - P12V_AUX's LC is pass.
+INFO - 2019-09-27 16:01:26,932 - P12V_AUX's LNC is pass.
+INFO - 2019-09-27 16:01:26,932 - P12V_AUX's UNC is pass.
+INFO - 2019-09-27 16:01:26,932 - P12V_AUX's UC is pass.
+INFO - 2019-09-27 16:01:26,933 - P5V_AUX's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,933 - P5V_AUX's sensor number is pass.
+INFO - 2019-09-27 16:01:26,933 - P5V_AUX's entity id is pass.
+INFO - 2019-09-27 16:01:26,933 - P5V_AUX's sensor type is pass.
+INFO - 2019-09-27 16:01:26,933 - P5V_AUX's LC is pass.
+INFO - 2019-09-27 16:01:26,933 - P5V_AUX's LNC is pass.
+INFO - 2019-09-27 16:01:26,933 - P5V_AUX's UNC is pass.
+INFO - 2019-09-27 16:01:26,933 - P5V_AUX's UC is pass.
+INFO - 2019-09-27 16:01:26,933 - P3V3_AUX's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,933 - P3V3_AUX's sensor number is pass.
+INFO - 2019-09-27 16:01:26,933 - P3V3_AUX's entity id is pass.
+INFO - 2019-09-27 16:01:26,933 - P3V3_AUX's sensor type is pass.
+INFO - 2019-09-27 16:01:26,933 - P3V3_AUX's LC is pass.
+INFO - 2019-09-27 16:01:26,933 - P3V3_AUX's LNC is pass.
+INFO - 2019-09-27 16:01:26,933 - P3V3_AUX's UNC is pass.
+INFO - 2019-09-27 16:01:26,933 - P3V3_AUX's UC is pass.
+INFO - 2019-09-27 16:01:26,933 - P1V8_PCH_AUX's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,933 - P1V8_PCH_AUX's sensor number is pass.
+INFO - 2019-09-27 16:01:26,934 - P1V8_PCH_AUX's entity id is pass.
+INFO - 2019-09-27 16:01:26,934 - P1V8_PCH_AUX's sensor type is pass.
+INFO - 2019-09-27 16:01:26,934 - P1V8_PCH_AUX's LC is pass.
+INFO - 2019-09-27 16:01:26,934 - P1V8_PCH_AUX's LNC is pass.
+INFO - 2019-09-27 16:01:26,934 - P1V8_PCH_AUX's UNC is pass.
+INFO - 2019-09-27 16:01:26,934 - P1V8_PCH_AUX's UC is pass.
+INFO - 2019-09-27 16:01:26,934 - PVNN_PCH_AUX's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,934 - PVNN_PCH_AUX's sensor number is pass.
+INFO - 2019-09-27 16:01:26,934 - PVNN_PCH_AUX's entity id is pass.
+INFO - 2019-09-27 16:01:26,934 - PVNN_PCH_AUX's sensor type is pass.
+INFO - 2019-09-27 16:01:26,934 - PVNN_PCH_AUX's LC is pass.
+INFO - 2019-09-27 16:01:26,934 - PVNN_PCH_AUX's LNC is pass.
+INFO - 2019-09-27 16:01:26,934 - PVNN_PCH_AUX's UNC is pass.
+INFO - 2019-09-27 16:01:26,934 - PVNN_PCH_AUX's UC is pass.
+INFO - 2019-09-27 16:01:26,934 - P1V05_PCH_AUX's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,935 - P1V05_PCH_AUX's sensor number is pass.
+INFO - 2019-09-27 16:01:26,935 - P1V05_PCH_AUX's entity id is pass.
+INFO - 2019-09-27 16:01:26,935 - P1V05_PCH_AUX's sensor type is pass.
+INFO - 2019-09-27 16:01:26,935 - P1V05_PCH_AUX's LC is pass.
+INFO - 2019-09-27 16:01:26,935 - P1V05_PCH_AUX's LNC is pass.
+INFO - 2019-09-27 16:01:26,935 - P1V05_PCH_AUX's UNC is pass.
+INFO - 2019-09-27 16:01:26,935 - P1V05_PCH_AUX's UC is pass.
+INFO - 2019-09-27 16:01:26,935 - P1V2_DDR_BMC's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,935 - P1V2_DDR_BMC's sensor number is pass.
+INFO - 2019-09-27 16:01:26,935 - P1V2_DDR_BMC's entity id is pass.
+INFO - 2019-09-27 16:01:26,935 - P1V2_DDR_BMC's sensor type is pass.
+INFO - 2019-09-27 16:01:26,935 - P1V2_DDR_BMC's LC is pass.
+INFO - 2019-09-27 16:01:26,935 - P1V2_DDR_BMC's LNC is pass.
+INFO - 2019-09-27 16:01:26,935 - P1V2_DDR_BMC's UNC is pass.
+INFO - 2019-09-27 16:01:26,935 - P1V2_DDR_BMC's UC is pass.
+INFO - 2019-09-27 16:01:26,935 - P1V15_BMC's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,935 - P1V15_BMC's sensor number is pass.
+INFO - 2019-09-27 16:01:26,935 - P1V15_BMC's entity id is pass.
+INFO - 2019-09-27 16:01:26,936 - P1V15_BMC's sensor type is pass.
+INFO - 2019-09-27 16:01:26,936 - P1V15_BMC's LC is pass.
+INFO - 2019-09-27 16:01:26,936 - P1V15_BMC's LNC is pass.
+INFO - 2019-09-27 16:01:26,936 - P1V15_BMC's UNC is pass.
+INFO - 2019-09-27 16:01:26,936 - P1V15_BMC's UC is pass.
+INFO - 2019-09-27 16:01:26,936 - PVCCIO_CPU1's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,936 - PVCCIO_CPU1's sensor number is pass.
+INFO - 2019-09-27 16:01:26,936 - PVCCIO_CPU1's entity id is pass.
+INFO - 2019-09-27 16:01:26,936 - PVCCIO_CPU1's sensor type is pass.
+INFO - 2019-09-27 16:01:26,936 - PVCCIO_CPU1's LC is pass.
+INFO - 2019-09-27 16:01:26,936 - PVCCIO_CPU1's LNC is pass.
+INFO - 2019-09-27 16:01:26,936 - PVCCIO_CPU1's UNC is pass.
+INFO - 2019-09-27 16:01:26,936 - PVCCIO_CPU1's UC is pass.
+ERROR - 2019-09-27 16:01:26,936 - spec don't have PVCCIO_CPU2 sensor_name. 
                         sensor number/entity id/sensor type not compare.
 
-INFO - 2019-09-27 14:20:13,146 - P12V_STBY's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,146 - P12V_STBY's sensor number is pass.
-INFO - 2019-09-27 14:20:13,146 - P12V_STBY's entity id is pass.
-INFO - 2019-09-27 14:20:13,146 - P12V_STBY's sensor type is pass.
-INFO - 2019-09-27 14:20:13,146 - P12V_STBY's LC is pass.
-INFO - 2019-09-27 14:20:13,146 - P12V_STBY's LNC is pass.
-INFO - 2019-09-27 14:20:13,146 - P12V_STBY's UNC is pass.
-INFO - 2019-09-27 14:20:13,146 - P12V_STBY's UC is pass.
-ERROR - 2019-09-27 14:20:13,146 - spec don't have P12V sensor_name. 
+INFO - 2019-09-27 16:01:26,937 - P12V_STBY's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,937 - P12V_STBY's sensor number is pass.
+INFO - 2019-09-27 16:01:26,937 - P12V_STBY's entity id is pass.
+INFO - 2019-09-27 16:01:26,937 - P12V_STBY's sensor type is pass.
+INFO - 2019-09-27 16:01:26,937 - P12V_STBY's LC is pass.
+INFO - 2019-09-27 16:01:26,937 - P12V_STBY's LNC is pass.
+INFO - 2019-09-27 16:01:26,937 - P12V_STBY's UNC is pass.
+INFO - 2019-09-27 16:01:26,937 - P12V_STBY's UC is pass.
+ERROR - 2019-09-27 16:01:26,937 - spec don't have P12V sensor_name. 
                         sensor number/entity id/sensor type not compare.
 
-INFO - 2019-09-27 14:20:13,146 - P5V's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,146 - P5V's sensor number is pass.
-INFO - 2019-09-27 14:20:13,146 - P5V's entity id is pass.
-INFO - 2019-09-27 14:20:13,146 - P5V's sensor type is pass.
-INFO - 2019-09-27 14:20:13,146 - P5V's LC is pass.
-INFO - 2019-09-27 14:20:13,147 - P5V's LNC is pass.
-INFO - 2019-09-27 14:20:13,147 - P5V's UNC is pass.
-INFO - 2019-09-27 14:20:13,147 - P5V's UC is pass.
-INFO - 2019-09-27 14:20:13,147 - P3V3's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,147 - P3V3's sensor number is pass.
-INFO - 2019-09-27 14:20:13,147 - P3V3's entity id is pass.
-INFO - 2019-09-27 14:20:13,147 - P3V3's sensor type is pass.
-INFO - 2019-09-27 14:20:13,147 - P3V3's LC is pass.
-INFO - 2019-09-27 14:20:13,147 - P3V3's LNC is pass.
-INFO - 2019-09-27 14:20:13,147 - P3V3's UNC is pass.
-INFO - 2019-09-27 14:20:13,147 - P3V3's UC is pass.
-INFO - 2019-09-27 14:20:13,147 - PSU0_VIN's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,147 - PSU0_VIN's sensor number is pass.
-INFO - 2019-09-27 14:20:13,147 - PSU0_VIN's entity id is pass.
-INFO - 2019-09-27 14:20:13,147 - PSU0_VIN's sensor type is pass.
-INFO - 2019-09-27 14:20:13,147 - PSU0_VIN's LC is pass.
-INFO - 2019-09-27 14:20:13,148 - PSU0_VIN's LNC is pass.
-INFO - 2019-09-27 14:20:13,148 - PSU0_VIN's UNC is pass.
-INFO - 2019-09-27 14:20:13,148 - PSU0_VIN's UC is pass.
-INFO - 2019-09-27 14:20:13,148 - PSU0_VOUT's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,148 - PSU0_VOUT's sensor number is pass.
-INFO - 2019-09-27 14:20:13,148 - PSU0_VOUT's entity id is pass.
-INFO - 2019-09-27 14:20:13,148 - PSU0_VOUT's sensor type is pass.
-INFO - 2019-09-27 14:20:13,148 - PSU0_VOUT's LC is pass.
-INFO - 2019-09-27 14:20:13,148 - PSU0_VOUT's LNC is pass.
-INFO - 2019-09-27 14:20:13,148 - PSU0_VOUT's UNC is pass.
-INFO - 2019-09-27 14:20:13,148 - PSU0_VOUT's UC is pass.
-INFO - 2019-09-27 14:20:13,148 - PSU0_IIN's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,148 - PSU0_IIN's sensor number is pass.
-INFO - 2019-09-27 14:20:13,148 - PSU0_IIN's entity id is pass.
-INFO - 2019-09-27 14:20:13,148 - PSU0_IIN's sensor type is pass.
-INFO - 2019-09-27 14:20:13,149 - PSU0_IIN's LC is pass.
-INFO - 2019-09-27 14:20:13,149 - PSU0_IIN's LNC is pass.
-INFO - 2019-09-27 14:20:13,149 - PSU0_IIN's UNC is pass.
-INFO - 2019-09-27 14:20:13,149 - PSU0_IIN's UC is pass.
-INFO - 2019-09-27 14:20:13,149 - PSU0_IOUT's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,149 - PSU0_IOUT's sensor number is pass.
-INFO - 2019-09-27 14:20:13,149 - PSU0_IOUT's entity id is pass.
-INFO - 2019-09-27 14:20:13,149 - PSU0_IOUT's sensor type is pass.
-INFO - 2019-09-27 14:20:13,149 - PSU0_IOUT's LC is pass.
-INFO - 2019-09-27 14:20:13,149 - PSU0_IOUT's LNC is pass.
-INFO - 2019-09-27 14:20:13,149 - PSU0_IOUT's UNC is pass.
-INFO - 2019-09-27 14:20:13,149 - PSU0_IOUT's UC is pass.
-INFO - 2019-09-27 14:20:13,149 - PSU0_PIN's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,149 - PSU0_PIN's sensor number is pass.
-INFO - 2019-09-27 14:20:13,150 - PSU0_PIN's entity id is pass.
-INFO - 2019-09-27 14:20:13,150 - PSU0_PIN's sensor type is pass.
-INFO - 2019-09-27 14:20:13,150 - PSU0_PIN's LC is pass.
-INFO - 2019-09-27 14:20:13,150 - PSU0_PIN's LNC is pass.
-INFO - 2019-09-27 14:20:13,150 - PSU0_PIN's UNC is pass.
-INFO - 2019-09-27 14:20:13,150 - PSU0_PIN's UC is pass.
-INFO - 2019-09-27 14:20:13,150 - PSU0_POUT's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,150 - PSU0_POUT's sensor number is pass.
-INFO - 2019-09-27 14:20:13,150 - PSU0_POUT's entity id is pass.
-INFO - 2019-09-27 14:20:13,150 - PSU0_POUT's sensor type is pass.
-INFO - 2019-09-27 14:20:13,150 - PSU0_POUT's LC is pass.
-INFO - 2019-09-27 14:20:13,150 - PSU0_POUT's LNC is pass.
-INFO - 2019-09-27 14:20:13,150 - PSU0_POUT's UNC is pass.
-INFO - 2019-09-27 14:20:13,150 - PSU0_POUT's UC is pass.
-INFO - 2019-09-27 14:20:13,150 - PSU1_VIN's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,150 - PSU1_VIN's sensor number is pass.
-INFO - 2019-09-27 14:20:13,150 - PSU1_VIN's entity id is pass.
-INFO - 2019-09-27 14:20:13,151 - PSU1_VIN's sensor type is pass.
-INFO - 2019-09-27 14:20:13,151 - PSU1_VIN's LC is pass.
-INFO - 2019-09-27 14:20:13,151 - PSU1_VIN's LNC is pass.
-INFO - 2019-09-27 14:20:13,151 - PSU1_VIN's UNC is pass.
-INFO - 2019-09-27 14:20:13,151 - PSU1_VIN's UC is pass.
-INFO - 2019-09-27 14:20:13,151 - PSU1_VOUT's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,151 - PSU1_VOUT's sensor number is pass.
-INFO - 2019-09-27 14:20:13,151 - PSU1_VOUT's entity id is pass.
-INFO - 2019-09-27 14:20:13,151 - PSU1_VOUT's sensor type is pass.
-INFO - 2019-09-27 14:20:13,151 - PSU1_VOUT's LC is pass.
-INFO - 2019-09-27 14:20:13,151 - PSU1_VOUT's LNC is pass.
-INFO - 2019-09-27 14:20:13,151 - PSU1_VOUT's UNC is pass.
-INFO - 2019-09-27 14:20:13,151 - PSU1_VOUT's UC is pass.
-INFO - 2019-09-27 14:20:13,151 - PSU1_IIN's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,151 - PSU1_IIN's sensor number is pass.
-INFO - 2019-09-27 14:20:13,151 - PSU1_IIN's entity id is pass.
-INFO - 2019-09-27 14:20:13,151 - PSU1_IIN's sensor type is pass.
-INFO - 2019-09-27 14:20:13,151 - PSU1_IIN's LC is pass.
-INFO - 2019-09-27 14:20:13,152 - PSU1_IIN's LNC is pass.
-INFO - 2019-09-27 14:20:13,152 - PSU1_IIN's UNC is pass.
-INFO - 2019-09-27 14:20:13,152 - PSU1_IIN's UC is pass.
-INFO - 2019-09-27 14:20:13,152 - PSU1_IOUT's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,152 - PSU1_IOUT's sensor number is pass.
-INFO - 2019-09-27 14:20:13,152 - PSU1_IOUT's entity id is pass.
-INFO - 2019-09-27 14:20:13,152 - PSU1_IOUT's sensor type is pass.
-INFO - 2019-09-27 14:20:13,152 - PSU1_IOUT's LC is pass.
-INFO - 2019-09-27 14:20:13,152 - PSU1_IOUT's LNC is pass.
-INFO - 2019-09-27 14:20:13,152 - PSU1_IOUT's UNC is pass.
-INFO - 2019-09-27 14:20:13,152 - PSU1_IOUT's UC is pass.
-INFO - 2019-09-27 14:20:13,152 - PSU1_PIN's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,152 - PSU1_PIN's sensor number is pass.
-INFO - 2019-09-27 14:20:13,152 - PSU1_PIN's entity id is pass.
-INFO - 2019-09-27 14:20:13,152 - PSU1_PIN's sensor type is pass.
-INFO - 2019-09-27 14:20:13,152 - PSU1_PIN's LC is pass.
-INFO - 2019-09-27 14:20:13,152 - PSU1_PIN's LNC is pass.
-INFO - 2019-09-27 14:20:13,153 - PSU1_PIN's UNC is pass.
-INFO - 2019-09-27 14:20:13,153 - PSU1_PIN's UC is pass.
-INFO - 2019-09-27 14:20:13,153 - PSU1_POUT's field ( Sensor name ): pass.
-INFO - 2019-09-27 14:20:13,153 - PSU1_POUT's sensor number is pass.
-INFO - 2019-09-27 14:20:13,153 - PSU1_POUT's entity id is pass.
-INFO - 2019-09-27 14:20:13,153 - PSU1_POUT's sensor type is pass.
-INFO - 2019-09-27 14:20:13,153 - PSU1_POUT's LC is pass.
-INFO - 2019-09-27 14:20:13,153 - PSU1_POUT's LNC is pass.
-INFO - 2019-09-27 14:20:13,153 - PSU1_POUT's UNC is pass.
-INFO - 2019-09-27 14:20:13,153 - PSU1_POUT's UC is pass.
-ERROR - 2019-09-27 14:20:13,153 - spec don't have Fan1_Speed sensor_name. 
+INFO - 2019-09-27 16:01:26,937 - P5V's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,938 - P5V's sensor number is pass.
+INFO - 2019-09-27 16:01:26,938 - P5V's entity id is pass.
+INFO - 2019-09-27 16:01:26,938 - P5V's sensor type is pass.
+INFO - 2019-09-27 16:01:26,938 - P5V's LC is pass.
+INFO - 2019-09-27 16:01:26,938 - P5V's LNC is pass.
+INFO - 2019-09-27 16:01:26,938 - P5V's UNC is pass.
+INFO - 2019-09-27 16:01:26,938 - P5V's UC is pass.
+INFO - 2019-09-27 16:01:26,938 - P3V3's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,938 - P3V3's sensor number is pass.
+INFO - 2019-09-27 16:01:26,938 - P3V3's entity id is pass.
+INFO - 2019-09-27 16:01:26,938 - P3V3's sensor type is pass.
+INFO - 2019-09-27 16:01:26,939 - P3V3's LC is pass.
+INFO - 2019-09-27 16:01:26,939 - P3V3's LNC is pass.
+INFO - 2019-09-27 16:01:26,939 - P3V3's UNC is pass.
+INFO - 2019-09-27 16:01:26,939 - P3V3's UC is pass.
+INFO - 2019-09-27 16:01:26,939 - PSU0_VIN's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,939 - PSU0_VIN's sensor number is pass.
+INFO - 2019-09-27 16:01:26,939 - PSU0_VIN's entity id is pass.
+INFO - 2019-09-27 16:01:26,939 - PSU0_VIN's sensor type is pass.
+INFO - 2019-09-27 16:01:26,939 - PSU0_VIN's LC is pass.
+INFO - 2019-09-27 16:01:26,939 - PSU0_VIN's LNC is pass.
+INFO - 2019-09-27 16:01:26,939 - PSU0_VIN's UNC is pass.
+INFO - 2019-09-27 16:01:26,939 - PSU0_VIN's UC is pass.
+INFO - 2019-09-27 16:01:26,940 - PSU0_VOUT's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,940 - PSU0_VOUT's sensor number is pass.
+INFO - 2019-09-27 16:01:26,940 - PSU0_VOUT's entity id is pass.
+INFO - 2019-09-27 16:01:26,940 - PSU0_VOUT's sensor type is pass.
+INFO - 2019-09-27 16:01:26,940 - PSU0_VOUT's LC is pass.
+INFO - 2019-09-27 16:01:26,940 - PSU0_VOUT's LNC is pass.
+INFO - 2019-09-27 16:01:26,940 - PSU0_VOUT's UNC is pass.
+INFO - 2019-09-27 16:01:26,940 - PSU0_VOUT's UC is pass.
+INFO - 2019-09-27 16:01:26,940 - PSU0_IIN's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,940 - PSU0_IIN's sensor number is pass.
+INFO - 2019-09-27 16:01:26,940 - PSU0_IIN's entity id is pass.
+INFO - 2019-09-27 16:01:26,940 - PSU0_IIN's sensor type is pass.
+INFO - 2019-09-27 16:01:26,940 - PSU0_IIN's LC is pass.
+INFO - 2019-09-27 16:01:26,940 - PSU0_IIN's LNC is pass.
+INFO - 2019-09-27 16:01:26,941 - PSU0_IIN's UNC is pass.
+INFO - 2019-09-27 16:01:26,941 - PSU0_IIN's UC is pass.
+INFO - 2019-09-27 16:01:26,941 - PSU0_IOUT's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,941 - PSU0_IOUT's sensor number is pass.
+INFO - 2019-09-27 16:01:26,941 - PSU0_IOUT's entity id is pass.
+INFO - 2019-09-27 16:01:26,941 - PSU0_IOUT's sensor type is pass.
+INFO - 2019-09-27 16:01:26,941 - PSU0_IOUT's LC is pass.
+INFO - 2019-09-27 16:01:26,941 - PSU0_IOUT's LNC is pass.
+INFO - 2019-09-27 16:01:26,941 - PSU0_IOUT's UNC is pass.
+INFO - 2019-09-27 16:01:26,941 - PSU0_IOUT's UC is pass.
+INFO - 2019-09-27 16:01:26,941 - PSU0_PIN's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,941 - PSU0_PIN's sensor number is pass.
+INFO - 2019-09-27 16:01:26,941 - PSU0_PIN's entity id is pass.
+INFO - 2019-09-27 16:01:26,941 - PSU0_PIN's sensor type is pass.
+INFO - 2019-09-27 16:01:26,942 - PSU0_PIN's LC is pass.
+INFO - 2019-09-27 16:01:26,942 - PSU0_PIN's LNC is pass.
+INFO - 2019-09-27 16:01:26,942 - PSU0_PIN's UNC is pass.
+INFO - 2019-09-27 16:01:26,942 - PSU0_PIN's UC is pass.
+INFO - 2019-09-27 16:01:26,942 - PSU0_POUT's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,942 - PSU0_POUT's sensor number is pass.
+INFO - 2019-09-27 16:01:26,942 - PSU0_POUT's entity id is pass.
+INFO - 2019-09-27 16:01:26,942 - PSU0_POUT's sensor type is pass.
+INFO - 2019-09-27 16:01:26,942 - PSU0_POUT's LC is pass.
+INFO - 2019-09-27 16:01:26,942 - PSU0_POUT's LNC is pass.
+INFO - 2019-09-27 16:01:26,942 - PSU0_POUT's UNC is pass.
+INFO - 2019-09-27 16:01:26,942 - PSU0_POUT's UC is pass.
+INFO - 2019-09-27 16:01:26,942 - PSU1_VIN's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,943 - PSU1_VIN's sensor number is pass.
+INFO - 2019-09-27 16:01:26,943 - PSU1_VIN's entity id is pass.
+INFO - 2019-09-27 16:01:26,943 - PSU1_VIN's sensor type is pass.
+INFO - 2019-09-27 16:01:26,943 - PSU1_VIN's LC is pass.
+INFO - 2019-09-27 16:01:26,943 - PSU1_VIN's LNC is pass.
+INFO - 2019-09-27 16:01:26,943 - PSU1_VIN's UNC is pass.
+INFO - 2019-09-27 16:01:26,943 - PSU1_VIN's UC is pass.
+INFO - 2019-09-27 16:01:26,943 - PSU1_VOUT's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,943 - PSU1_VOUT's sensor number is pass.
+INFO - 2019-09-27 16:01:26,943 - PSU1_VOUT's entity id is pass.
+INFO - 2019-09-27 16:01:26,943 - PSU1_VOUT's sensor type is pass.
+INFO - 2019-09-27 16:01:26,943 - PSU1_VOUT's LC is pass.
+INFO - 2019-09-27 16:01:26,944 - PSU1_VOUT's LNC is pass.
+INFO - 2019-09-27 16:01:26,944 - PSU1_VOUT's UNC is pass.
+INFO - 2019-09-27 16:01:26,944 - PSU1_VOUT's UC is pass.
+INFO - 2019-09-27 16:01:26,944 - PSU1_IIN's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,944 - PSU1_IIN's sensor number is pass.
+INFO - 2019-09-27 16:01:26,944 - PSU1_IIN's entity id is pass.
+INFO - 2019-09-27 16:01:26,944 - PSU1_IIN's sensor type is pass.
+INFO - 2019-09-27 16:01:26,944 - PSU1_IIN's LC is pass.
+INFO - 2019-09-27 16:01:26,944 - PSU1_IIN's LNC is pass.
+INFO - 2019-09-27 16:01:26,944 - PSU1_IIN's UNC is pass.
+INFO - 2019-09-27 16:01:26,944 - PSU1_IIN's UC is pass.
+INFO - 2019-09-27 16:01:26,944 - PSU1_IOUT's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,944 - PSU1_IOUT's sensor number is pass.
+INFO - 2019-09-27 16:01:26,944 - PSU1_IOUT's entity id is pass.
+INFO - 2019-09-27 16:01:26,945 - PSU1_IOUT's sensor type is pass.
+INFO - 2019-09-27 16:01:26,945 - PSU1_IOUT's LC is pass.
+INFO - 2019-09-27 16:01:26,945 - PSU1_IOUT's LNC is pass.
+INFO - 2019-09-27 16:01:26,945 - PSU1_IOUT's UNC is pass.
+INFO - 2019-09-27 16:01:26,945 - PSU1_IOUT's UC is pass.
+INFO - 2019-09-27 16:01:26,945 - PSU1_PIN's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,945 - PSU1_PIN's sensor number is pass.
+INFO - 2019-09-27 16:01:26,945 - PSU1_PIN's entity id is pass.
+INFO - 2019-09-27 16:01:26,945 - PSU1_PIN's sensor type is pass.
+INFO - 2019-09-27 16:01:26,945 - PSU1_PIN's LC is pass.
+INFO - 2019-09-27 16:01:26,945 - PSU1_PIN's LNC is pass.
+INFO - 2019-09-27 16:01:26,945 - PSU1_PIN's UNC is pass.
+INFO - 2019-09-27 16:01:26,946 - PSU1_PIN's UC is pass.
+INFO - 2019-09-27 16:01:26,946 - PSU1_POUT's field ( Sensor name ): pass.
+INFO - 2019-09-27 16:01:26,946 - PSU1_POUT's sensor number is pass.
+INFO - 2019-09-27 16:01:26,946 - PSU1_POUT's entity id is pass.
+INFO - 2019-09-27 16:01:26,946 - PSU1_POUT's sensor type is pass.
+INFO - 2019-09-27 16:01:26,946 - PSU1_POUT's LC is pass.
+INFO - 2019-09-27 16:01:26,946 - PSU1_POUT's LNC is pass.
+INFO - 2019-09-27 16:01:26,946 - PSU1_POUT's UNC is pass.
+INFO - 2019-09-27 16:01:26,946 - PSU1_POUT's UC is pass.
+ERROR - 2019-09-27 16:01:26,946 - spec don't have Fan1_Speed sensor_name. 
                         sensor number/entity id/sensor type not compare.
 
-ERROR - 2019-09-27 14:20:13,153 - spec don't have Fan2_Speed sensor_name. 
+ERROR - 2019-09-27 16:01:26,946 - spec don't have Fan2_Speed sensor_name. 
                         sensor number/entity id/sensor type not compare.
 
-ERROR - 2019-09-27 14:20:13,153 - spec don't have Fan3_Speed sensor_name. 
+ERROR - 2019-09-27 16:01:26,946 - spec don't have Fan3_Speed sensor_name. 
                         sensor number/entity id/sensor type not compare.
 
-ERROR - 2019-09-27 14:20:13,153 - spec don't have Fan4_Speed sensor_name. 
+ERROR - 2019-09-27 16:01:26,946 - spec don't have Fan4_Speed sensor_name. 
                         sensor number/entity id/sensor type not compare.
 
-ERROR - 2019-09-27 14:20:13,153 - spec don't have Fan5_Speed sensor_name. 
+ERROR - 2019-09-27 16:01:26,947 - spec don't have Fan5_Speed sensor_name. 
                         sensor number/entity id/sensor type not compare.
 
-ERROR - 2019-09-27 14:20:13,153 - spec don't have Fan6_Speed sensor_name. 
+ERROR - 2019-09-27 16:01:26,947 - spec don't have Fan6_Speed sensor_name. 
                         sensor number/entity id/sensor type not compare.
 

@@ -180,6 +180,6 @@ if __name__ == '__main__':
     # sensor.sensor_compare(spec_sensor, ipmi_sensor)
 
     print "Start read .log file test result save to Excel..."
-    ResultLogToExcel.run()
+    ResultLogToExcel.run(ipmi_sdr)
 
 
