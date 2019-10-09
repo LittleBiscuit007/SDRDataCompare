@@ -170,7 +170,7 @@ if __name__ == '__main__':
 
     ipmi_sensor, SplitString = get_sensor()
     # print 'spec_sensor: ', spec_sensor
-    print 'ipmi_sensor: ', ipmi_sensor
+    # print 'ipmi_sensor: ', ipmi_sensor
     ipmi_sdr = get_sdr()
     # print 'spec_sdr: ', spec_sdr
     # print 'ipmi_sdr: ', ipmi_sdr

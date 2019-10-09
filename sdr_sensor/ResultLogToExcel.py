@@ -22,11 +22,14 @@ def write_excel(ipmi_sdr, excel_result_list):
     # new a style object
     style_red = xlwt.easyxf('pattern: pattern solid, fore_colour red')
     style_green = xlwt.easyxf('pattern: pattern solid, fore_colour green')
+    style_gold = xlwt.easyxf('pattern: pattern solid, fore_colour gold')
 
     # write sensor name into excel
     for row in range(len(ipmi_sdr)):
         ws.write(row, 0, ipmi_sdr[row][0])
-        if excel_result_list[row]:
+        if excel_result_list[row] == "reading is 'na', no compare threshold":
+            ws.write(row, 1, excel_result_list[row], style_gold)
+        elif excel_result_list[row]:
             ws.write(row, 1, excel_result_list[row], style_red)
         else:
             ws.write(row, 1, excel_result_list[row], style_green)
