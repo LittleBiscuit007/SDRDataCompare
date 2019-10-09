@@ -20,6 +20,10 @@ def threshold_compare(ipmi_threshold_each, spec_threshold_each, sensor_name):
     compare threshold
     :return:
     """
+    # judge whether sensor has reading
+    if ipmi_threshold_each[-1] == "na":
+        logger.warning(sensor_name + "'s reading is 'na'. no compare threshold !")
+        return
     threshold_name_list = ["LC", "LNC", "UNC", "UC"]
     for i in range(1, 5):
         if ipmi_threshold_each[i] == spec_threshold_each[i-1]:

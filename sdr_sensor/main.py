@@ -143,14 +143,15 @@ def get_sensor():
             # delete whitespace at both ends
             for j in range(len(i_list)):
                 i_list[j] = i_list[j].strip()
-            # delete field reading/units/status/lnr/unr
-            for _ in range(4):
-                pop_data = i_list.pop(1)
+            # delete field units/status/lnr/unr
+            for _ in range(3):
                 if _ == 0:
                     i_list.pop(len(i_list)-1)
                     # get threshold and discrete split string
-                    if i_list[1] == "discrete":
+                    if i_list[2] == "discrete":
                         SplitString = i_list[0]
+                pop_data = i_list.pop(2)
+
             # delete discrete sensor
             # print SplitString
             try:
@@ -158,6 +159,8 @@ def get_sensor():
                     break
             except Exception:
                 pass
+            # transferred sensor reading to list last
+            i_list.append(i_list.pop(1))
             sensor_valid_list.append(i_list)
     return sensor_valid_list, SplitString
 
@@ -167,12 +170,12 @@ if __name__ == '__main__':
 
     ipmi_sensor, SplitString = get_sensor()
     # print 'spec_sensor: ', spec_sensor
-    # print 'ipmi_sensor: ', ipmi_sensor
+    print 'ipmi_sensor: ', ipmi_sensor
     ipmi_sdr = get_sdr()
     # print 'spec_sdr: ', spec_sdr
     # print 'ipmi_sdr: ', ipmi_sdr
 
-    print "Threshold Sensor and Discrete Sensor split string: ", SplitString
+    print "Threshold Sensor and Discrete Sensor split string: "
 
     # send sdr to SdrAndSensorCompare.py, exec sdr data compare
     SdrAndSensorCompare.sdrandsensor_compare(spec_sdr, ipmi_sdr, spec_sensor, ipmi_sensor)
