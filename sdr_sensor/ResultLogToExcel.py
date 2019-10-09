@@ -1,21 +1,35 @@
 import os
 import conf
-from pyExcelerator import Workbook
+import xlwt
 
 
 def write_excel(ipmi_sdr, excel_result_list):
+    """
+    save test result into excel file, and set specify color to cell
+    :param ipmi_sdr:
+    :param excel_result_list:
+    :return:
+    """
     # if test result excel exists, then remove it
     if os.path.exists("../" + conf.TestPlanName):
         os.remove("../" + conf.TestPlanName)
 
     # create excel workbook
-    w = Workbook()
+    w = xlwt.Workbook(encoding="utf-8")
     # create a worksheet
     ws = w.add_sheet('Sheet1')
+
+    # new a style object
+    style_red = xlwt.easyxf('pattern: pattern solid, fore_colour red')
+    style_green = xlwt.easyxf('pattern: pattern solid, fore_colour green')
+
     # write sensor name into excel
     for row in range(len(ipmi_sdr)):
         ws.write(row, 0, ipmi_sdr[row][0])
-        ws.write(row, 1, excel_result_list[row])
+        if excel_result_list[row]:
+            ws.write(row, 1, excel_result_list[row], style_red)
+        else:
+            ws.write(row, 1, excel_result_list[row], style_green)
 
     # print result_str
 
