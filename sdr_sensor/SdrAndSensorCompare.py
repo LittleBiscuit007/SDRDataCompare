@@ -20,12 +20,24 @@ def threshold_compare(ipmi_threshold_each, spec_threshold_each, sensor_name):
     compare threshold
     :return:
     """
+    threshold_name_list = ["LC", "LNC", "UNC", "UC"]
+
     # judge whether sensor has reading
     if ipmi_threshold_each[-1] == "na":
         logger.warning(sensor_name + "'s reading is 'na'. no compare threshold !")
         return
-    threshold_name_list = ["LC", "LNC", "UNC", "UC"]
+
     for i in range(1, 5):
+        # if spec_threshold_each has "Tjmax" string, once threshold has value, then record log -- pass
+        if "Tjmax" in str(spec_threshold_each[i-1]):
+            if ipmi_threshold_each[i] != "na":
+                logger.info(sensor_name + "'s " + threshold_name_list[i-1] + " is pass.")
+                continue
+            else:
+                logger.error(ipmi_threshold_each[i] + " and " + str(spec_threshold_each[i-1]) + " are different. \
+                            " + sensor_name + "'s " + threshold_name_list[i-1] + " is fail.")
+                continue
+
         if ipmi_threshold_each[i] == spec_threshold_each[i-1]:
             logger.info(sensor_name + "'s " + threshold_name_list[i-1] + " is pass.")
         elif ipmi_threshold_each[i] == "na" or spec_threshold_each[i-1] == "na":

@@ -155,3 +155,14 @@ import math
 # for i in ipmi_sdr:
 #     print i
 
+
+# list1 = [1, 1, 3]
+# print list1.index(1)
+
+list1 = [1, 1, 3]
+print type(list1[1])
+
+str(list1[1])
+print type(str(list1[1]))
+
+
