@@ -15,16 +15,30 @@ def diff_rate(ipmi, spec):
     return ipmi_spec_diff_rate
 
 
+def na_threshold_compare(ipmi_threshold_each, threshold_name_list, sensor_name):
+    """
+    when sensor reading is na, compare LC/LNC/UNC/UC whether is na
+    :return:
+    """
+    for i in range(1, 5):
+        if ipmi_threshold_each[i] == "na":
+            logger.info(sensor_name + "'s " + threshold_name_list[i-1] + " is pass.")
+        else:
+            logger.error(sensor_name + "'s sensor reading is 'na', but " + threshold_name_list[i-1] + " is not 'na'.")
+
+
 def threshold_compare(ipmi_threshold_each, spec_threshold_each, sensor_name):
     """
     compare threshold
+    ipmi_threshold_each: [sensor_name, LC, LNC, UNC, UC, sensor reading]
+    spec_threshold_each: [LC, LNC, UNC, UC]
     :return:
     """
     threshold_name_list = ["LC", "LNC", "UNC", "UC"]
 
     # judge whether sensor has reading
     if ipmi_threshold_each[-1] == "na":
-        logger.warning(sensor_name + "'s reading is 'na'. no compare threshold !")
+        na_threshold_compare(ipmi_threshold_each, threshold_name_list, sensor_name)
         return
 
     for i in range(1, 5):

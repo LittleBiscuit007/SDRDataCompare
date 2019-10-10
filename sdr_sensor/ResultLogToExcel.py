@@ -71,10 +71,10 @@ def run(ipmi_sdr):
                 continue
             # if sensor reading is "na", no compare threshold
             # every five row data as a test item result
-            if "no compare threshold" in log_file_data:
-                excel_result_list.append("reading is 'na', no compare threshold")
-                skip_flag = 4
-                continue
+            # if "no compare threshold" in log_file_data:
+            #     excel_result_list.append("reading is 'na', no compare threshold")
+            #     skip_flag = 4
+            #     continue
             if skip_flag:
                 skip_flag -= 1
                 continue

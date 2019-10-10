@@ -7,8 +7,7 @@ Execution environment is python2
 4. Auto save test result into "test_result.xls" file.
 
 Note:   
-    1. Record string "Sensor name, " test items in "test_result.xls", its sensor number/entity id/sensor type no compare.  
-    2. Need manual see whether no sensor reading but has threshold.  
-    3. When spec tjreshold has Tjmax, ipmi threshold has value then pass.
+   1. Record string "Sensor name, " test items in "test_result.xls", its sensor number/entity id/sensor type no compare.  
+   2. When spec tjreshold has Tjmax, ipmi threshold has value then pass.
 
 
