@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c583d81d-1504-49b8-b659-7cc016ee02b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PF05008957_HR650X+_BMC_BMC SDR Spec_V0.2.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practive.py" beforeDir="false" afterPath="$PROJECT_DIR$/practive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdr_sensor/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdr_sensor/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdr_sensor/log_sdr_sensor.log" beforeDir="false" afterPath="$PROJECT_DIR$/sdr_sensor/log_sdr_sensor.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,14 +56,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-305">
-              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+            <state relative-caret-position="122">
+              <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="136">
+                <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -150,12 +158,12 @@
         <option value="$PROJECT_DIR$/practive.txt" />
         <option value="$PROJECT_DIR$/sdr_sensor/log_sdr_sensor.log" />
         <option value="$PROJECT_DIR$/sdr_sensor/logger_sdr_sensor.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/sdr_sensor/ResultLogToExcel.py" />
         <option value="$PROJECT_DIR$/sdr_sensor/main.py" />
         <option value="$PROJECT_DIR$/sdr_sensor/conf.py" />
         <option value="$PROJECT_DIR$/practive.py" />
         <option value="$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -447,22 +455,36 @@
       <option name="project" value="LOCAL" />
       <updated>1570609062332</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="if spec has Tjmax, then judge ipmi threshold whether not &quot;na&quot;, yes then pass">
+      <created>1570694323775</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1570694323775</updated>
+    </task>
+    <task id="LOCAL-00016" summary="improve README.md file">
+      <created>1570696436262</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1570696436262</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103305000" />
+    <option name="totallyTimeSpent" value="105643000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1916" height="865" extended-state="6" />
+    <frame x="0" y="28" width="1362" height="553" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16595289" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23592085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32839224" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946582" visible="true" weight="0.31629834" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946582" weight="0.31629834" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3984109" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -471,7 +493,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005342" side_tool="true" weight="0.37286204" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32872927" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5315534" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -497,7 +519,9 @@
     <MESSAGE value="fix: log file record many times test result data issue" />
     <MESSAGE value="create a excel file to save sensor_name and test_result, and improve README.md" />
     <MESSAGE value="add test result color(red/green/gold) to specify cell" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test result color(red/green/gold) to specify cell" />
+    <MESSAGE value="if spec has Tjmax, then judge ipmi threshold whether not &quot;na&quot;, yes then pass" />
+    <MESSAGE value="improve README.md file" />
+    <option name="LAST_COMMIT_MESSAGE" value="improve README.md file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -574,16 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/177_sensor.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-425">
@@ -618,6 +632,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sdr_sensor/log_sdr_sensor.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="204">
+          <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/practive.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
@@ -628,20 +649,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdr_sensor/log_sdr_sensor.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="204">
-          <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-305">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        <state relative-caret-position="122">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="136">
+            <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
