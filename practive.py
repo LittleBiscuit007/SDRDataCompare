@@ -19,13 +19,18 @@ import math
 #
 # print eval("55.0") == eval(hexString)
 
-# asc = "b0"
-# print asc.islower()
-#
+d = {"B_a0": 123}
+asc = "b_a0"
+print asc.islower()
+
 # if asc.islower():
 #     asc = asc.upper()
-#
 # print asc
+
+print type(asc.split("_")[1:])
+print "_".join([asc.split("_")[0].upper()] + asc.split("_")[1:])
+if d["_".join([asc.split("_")[0].upper()] + asc.split("_")[1:])]:
+    print d["_".join([asc.split("_")[0].upper()] + asc.split("_")[1:])]
 
 # ipmi = eval("50")
 # spec = eval("49.00")
@@ -159,10 +164,46 @@ import math
 # list1 = [1, 1, 3]
 # print list1.index(1)
 
-list1 = [1, 1, 3]
-print type(list1[1])
+# list1 = [1, 1, 3]
+# print type(list1[1])
+#
+# str(list1[1])
+# print type(str(list1[1]))
 
-str(list1[1])
-print type(str(list1[1]))
+#
+# print 'this is a test of code path in try...except...else...finally'
+# print '************************************************************'
+#
+#
+# def exceptTest():
+#     try:
+#         print 'doing some work, and maybe exception will be raised'
+#         # raise IndexError('index error')
+#         print 'after exception raise'
+#         return 0
+#
+#     except KeyError, e:
+#         print 'in KeyError except'
+#         print e
+#         return 1
+#     except IndexError, e:
+#         print 'in IndexError except'
+#         print e
+#         return 2
+#     except ZeroDivisionError, e:
+#         print 'in ZeroDivisionError'
+#         print e
+#         return 3
+#     else:
+#         print 'no exception'
+#         return 4
+#     finally:
+#         print 'in finally'
+#         return 5
+#
+#
+# resultCode = exceptTest()
+# print resultCode
+
 
 
