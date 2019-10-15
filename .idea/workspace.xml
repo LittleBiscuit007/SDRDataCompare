@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c583d81d-1504-49b8-b659-7cc016ee02b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practive.py" beforeDir="false" afterPath="$PROJECT_DIR$/practive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdr_sensor/ResultLogToExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdr_sensor/ResultLogToExcel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdr_sensor/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdr_sensor/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdr_sensor/log_sdr_sensor.log" beforeDir="false" afterPath="$PROJECT_DIR$/sdr_sensor/log_sdr_sensor.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdr_sensor/logger_sdr_sensor.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdr_sensor/LoggerSdrAndSensor.py" afterDir="false" />
-    </list>
+    <list default="true" id="c583d81d-1504-49b8-b659-7cc016ee02b0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,26 +53,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="113" column="68" selection-start-line="113" selection-start-column="57" selection-end-line="113" selection-end-column="68" />
+            <state relative-caret-position="170">
+              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="204">
-                <caret line="12" column="115" selection-start-line="12" selection-start-column="115" selection-end-line="12" selection-end-column="115" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -363,7 +342,7 @@
       <workItem from="1565085825139" duration="5999000" />
       <workItem from="1565575345689" duration="19141000" />
       <workItem from="1568858318462" duration="73027000" />
-      <workItem from="1570778705245" duration="7881000" />
+      <workItem from="1570778705245" duration="9607000" />
     </task>
     <task id="LOCAL-00001" summary="complete spec/ipmi sdr compare">
       <created>1568946716797</created>
@@ -491,22 +470,28 @@
       <option name="project" value="LOCAL" />
       <updated>1570699949943</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fix sensor name capitalized issue(all upper or all lower in spec) and improve README.md file">
+      <created>1571041409678</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1571041409679</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115671000" />
+    <option name="totallyTimeSpent" value="117397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1916" height="865" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.12379421" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32839224" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946582" visible="true" weight="0.31622747" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946582" weight="0.31622747" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3984109" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -515,7 +500,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005342" side_tool="true" weight="0.37286204" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5315534" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.53120667" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -545,7 +530,8 @@
     <MESSAGE value="improve README.md file" />
     <MESSAGE value="improve README.md file -- enter format" />
     <MESSAGE value="sensor reading is na, threshold should be na, yes then pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="sensor reading is na, threshold should be na, yes then pass" />
+    <MESSAGE value="fix sensor name capitalized issue(all upper or all lower in spec) and improve README.md file" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix sensor name capitalized issue(all upper or all lower in spec) and improve README.md file" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2/typing.pyi">
@@ -662,16 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="113" column="68" selection-start-line="113" selection-start-column="57" selection-end-line="113" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -679,6 +655,16 @@
             <caret line="12" column="115" selection-start-line="12" selection-start-column="115" selection-end-line="12" selection-end-column="115" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
