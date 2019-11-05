@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c583d81d-1504-49b8-b659-7cc016ee02b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sdr_sensor/GetData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/177_sdr.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/177_sensor.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practive.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practive.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdr_sensor/ResultLogToExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdr_sensor/ResultLogToExcel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdr_sensor/DataCompare.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sdr_sensor/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdr_sensor/conf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sdr_sensor/log_sdr_sensor.log" beforeDir="false" afterPath="$PROJECT_DIR$/sdr_sensor/log_sdr_sensor.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sdr_sensor/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdr_sensor/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sensor_compare.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,9 +18,10 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/data_compare$ResultLogToExcel.coverage" NAME="ResultLogToExcel Coverage Results" MODIFIED="1569570467636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sdr_sensor" />
-    <SUITE FILE_PATH="coverage/data_compare$practive.coverage" NAME="practive Coverage Results" MODIFIED="1571040691245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/data_compare$practive.coverage" NAME="practive Coverage Results" MODIFIED="1572853085149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/data_compare$data_compare.coverage" NAME="data_compare Coverage Results" MODIFIED="1568860261529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/data_compare$main.coverage" NAME="main Coverage Results" MODIFIED="1572336747249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sdr_sensor" />
+    <SUITE FILE_PATH="coverage/data_compare$main.coverage" NAME="main Coverage Results" MODIFIED="1572941784141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sdr_sensor" />
+    <SUITE FILE_PATH="coverage/data_compare$DiscreteData.coverage" NAME="DiscreteData Coverage Results" MODIFIED="1572937325232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sdr_sensor" />
     <SUITE FILE_PATH="coverage/data_compare$logger.coverage" NAME="logger Coverage Results" MODIFIED="1568883894963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sdr_sensor" />
     <SUITE FILE_PATH="coverage/data_compare$sensor_compare.coverage" NAME="sensor_compare Coverage Results" MODIFIED="1568873729909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/data_compare$sdr.coverage" NAME="sdr Coverage Results" MODIFIED="1568887195809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sdr_sensor" />
@@ -31,23 +29,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sdr_sensor/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
+            <state relative-caret-position="289">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py">
+        <entry file="file://$PROJECT_DIR$/sdr_sensor/GetData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="127" column="62" selection-start-line="127" selection-start-column="62" selection-end-line="127" selection-end-column="62" />
+            <state relative-caret-position="952">
+              <caret line="68" column="41" lean-forward="true" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sdr_sensor/log_sdr_sensor.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state relative-caret-position="277">
+              <caret line="1411" column="51" selection-start-line="1411" selection-start-column="51" selection-end-line="1411" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sdr_sensor/DataCompare.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="95" column="7" lean-forward="true" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -58,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sdr_sensor/ResultLogToExcel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            <state relative-caret-position="289">
+              <caret line="92" column="31" lean-forward="true" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -68,19 +87,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sdr_sensor/log_sdr_sensor.log">
-          <provider selected="true" editor-type-id="LogFileEditorProvider">
-            <state relative-caret-position="136">
-              <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sdr_sensor/conf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="153">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -103,9 +113,18 @@
       <find>Split</find>
       <find>discrete_string</find>
       <find>Fan6</find>
-      <find>SplitString</find>
-      <find>sensor_index</find>
       <find>upper</find>
+      <find>diff_rate</find>
+      <find>SplitString</find>
+      <find>spec_discrete_sensor</find>
+      <find>['CPU_Exception', ' ', '(0xfc)']</find>
+      <find>55</find>
+      <find>device</find>
+      <find>get</find>
+      <find>getdata</find>
+      <find>sensor_index</find>
+      <find>PDB</find>
+      <find>DIMM0_T</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -122,12 +141,18 @@
         <option value="$PROJECT_DIR$/practive.txt" />
         <option value="$PROJECT_DIR$/sdr_sensor/log_sdr_sensor.log" />
         <option value="$PROJECT_DIR$/sdr_sensor/logger_sdr_sensor.py" />
-        <option value="$PROJECT_DIR$/sdr_sensor/ResultLogToExcel.py" />
-        <option value="$PROJECT_DIR$/practive.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/sdr_sensor/conf.py" />
         <option value="$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py" />
+        <option value="$PROJECT_DIR$/DiscreteCompare.py" />
+        <option value="$PROJECT_DIR$/sdr_sensor/conf.py" />
+        <option value="$PROJECT_DIR$/practive.py" />
+        <option value="$PROJECT_DIR$/sdr_sensor/DiscreteData.py" />
+        <option value="$PROJECT_DIR$/sdr_sensor/ThresholdData.py" />
+        <option value="$PROJECT_DIR$/sdr_sensor/GetData.py" />
+        <option value="$PROJECT_DIR$/sdr_sensor/DiscreteCompare.py" />
+        <option value="$PROJECT_DIR$/sdr_sensor/ThresholdCompare.py" />
         <option value="$PROJECT_DIR$/sdr_sensor/main.py" />
+        <option value="$PROJECT_DIR$/sdr_sensor/ResultLogToExcel.py" />
       </list>
     </option>
   </component>
@@ -143,6 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,7 +185,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,6 +195,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sdr_sensor" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sdr_sensor" />
     </key>
@@ -187,6 +215,28 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.main">
+    <configuration name="DiscreteData" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_compare" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sdr_sensor" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sdr_sensor/DiscreteData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ResultLogToExcel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_compare" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,28 +251,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sdr_sensor/ResultLogToExcel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="logger" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data_compare" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sdr_sensor" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sdr_sensor/LoggerSdrAndSensor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,7 +316,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sdr_sensor/DataCompare.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -300,10 +328,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.DiscreteData" />
         <item itemvalue="Python.practive" />
         <item itemvalue="Python.ResultLogToExcel" />
         <item itemvalue="Python.sdr" />
-        <item itemvalue="Python.logger" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +351,8 @@
       <workItem from="1570778705245" duration="9607000" />
       <workItem from="1571135146597" duration="237000" />
       <workItem from="1571219820011" duration="2026000" />
-      <workItem from="1572334982111" duration="2101000" />
+      <workItem from="1572334982111" duration="2836000" />
+      <workItem from="1572836131206" duration="31000000" />
     </task>
     <task id="LOCAL-00001" summary="complete spec/ipmi sdr compare">
       <created>1568946716797</created>
@@ -465,21 +494,29 @@
       <option name="project" value="LOCAL" />
       <updated>1571135371266</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="adjust main.py code">
+      <created>1572337095365</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1572337095366</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121761000" />
+    <option name="totallyTimeSpent" value="153496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1916" height="865" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.12861736" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.13022508" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32839224" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946582" weight="0.31622747" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32732317" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946582" visible="true" weight="0.31622747" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3984109" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -553,24 +590,9 @@
     <entry file="file://$PROJECT_DIR$/combination_data.txt" />
     <entry file="file://$PROJECT_DIR$/data_compare.py" />
     <entry file="file://$PROJECT_DIR$/sdr_sensor/sensor.py" />
-    <entry file="file://$PROJECT_DIR$/practive.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/practive.txt" />
     <entry file="file://$PROJECT_DIR$/177_sdr.txt" />
-    <entry file="file://$PROJECT_DIR$/sensor_compare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sensor_compare.py" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -595,56 +617,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sdr_sensor/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdr_sensor/DiscreteData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/practive.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" column="70" selection-start-line="32" selection-start-column="70" selection-end-line="32" selection-end-column="70" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdr_sensor/DiscreteCompare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdr_sensor/GetData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="68" column="41" lean-forward="true" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdr_sensor/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sdr_sensor/ResultLogToExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="92" column="31" lean-forward="true" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sdr_sensor/log_sdr_sensor.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="136">
-          <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+        <state relative-caret-position="277">
+          <caret line="1411" column="51" selection-start-line="1411" selection-start-column="51" selection-end-line="1411" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sdr_sensor/ResultLogToExcel.py">
+    <entry file="file://$PROJECT_DIR$/sdr_sensor/DataCompare.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sdr_sensor/SdrAndSensorCompare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="127" column="62" selection-start-line="127" selection-start-column="62" selection-end-line="127" selection-end-column="62" />
+        <state relative-caret-position="404">
+          <caret line="95" column="7" lean-forward="true" selection-start-line="95" selection-start-column="7" selection-end-line="95" selection-end-column="7" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sdr_sensor/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sdr_sensor/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="167" lean-forward="true" selection-start-line="167" selection-end-line="167" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>

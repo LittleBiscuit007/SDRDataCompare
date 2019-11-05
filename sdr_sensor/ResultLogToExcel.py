@@ -3,7 +3,7 @@ import conf
 import xlwt
 
 
-def write_excel(ipmi_sdr, excel_result_list):
+def write_excel(ipmi_sdr, discrete_sdr, excel_result_list):
     """
     save test result into excel file, and set specify color to cell
     :param ipmi_sdr:
@@ -24,9 +24,13 @@ def write_excel(ipmi_sdr, excel_result_list):
     style_green = xlwt.easyxf('pattern: pattern solid, fore_colour green')
     style_gold = xlwt.easyxf('pattern: pattern solid, fore_colour gold')
 
+    # print len(ipmi_sdr), len(discrete_sdr), len(excel_result_list)
     # write sensor name into excel
-    for row in range(len(ipmi_sdr)):
-        ws.write(row, 0, ipmi_sdr[row][0])
+    for row in range(len(excel_result_list)):
+        if row < len(ipmi_sdr):
+            ws.write(row, 0, ipmi_sdr[row][0])
+        else:
+            ws.write(row, 0, discrete_sdr[row-len(ipmi_sdr)][0])
         if excel_result_list[row] == "reading is 'na', no compare threshold":
             ws.write(row, 1, excel_result_list[row], style_gold)
         elif excel_result_list[row]:
@@ -38,7 +42,7 @@ def write_excel(ipmi_sdr, excel_result_list):
     w.save("../" + conf.TestPlanName)
 
 
-def run(ipmi_sdr):
+def run(ipmi_sdr, discrete_sdr):
     """
     exec this script's main function
     read log_sdr_sensor.log file
@@ -53,6 +57,7 @@ def run(ipmi_sdr):
     with open("log_sdr_sensor.log") as log_file:
         skip_flag = 0
         loop_flag = 1
+        loop_compare = 8
         result_list = ["Sensor name, ", "sensor number, ", "entity id, ", "sensor type, ", "LC, ", "LNC, ", "UNC, ", "UC"]
         result_str = ""
         excel_result_list = []
@@ -71,18 +76,22 @@ def run(ipmi_sdr):
                 skip_flag -= 1
                 continue
 
+            if "Discrete Compare" in log_file_data:
+                loop_compare = 4
+                continue
+
             # every eight keyword save as a test item result, make up String data
             if "ERROR" in log_file_data:
                 result_str += result_list[loop_flag-1]
-            if loop_flag == 8:
+            if loop_flag == loop_compare:
                 excel_result_list.append(result_str)
                 result_str = ""
                 loop_flag = 0
             loop_flag += 1
 
-        # print excel_result_list
+        print excel_result_list
         # write specify cell into excel
-        write_excel(ipmi_sdr, excel_result_list)
+        write_excel(ipmi_sdr, discrete_sdr, excel_result_list)
 
 
 

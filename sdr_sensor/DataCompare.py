@@ -94,10 +94,11 @@ def sdrandsensor_compare(spec_sdr, ipmi_sdr, spec_sensor, ipmi_sensor):
     :param ipmi_sensor: list, [sensor name, LC, LNC, UNC, UC]
     :return:
     """
-    if len(ipmi_sdr) != len(ipmi_sensor):
-        print "get ipmi sdr/sensor data info error"
-        logger.error("get ipmi data error")
-        return 0
+    if spec_sensor and ipmi_sensor:
+        if len(ipmi_sdr) != len(ipmi_sensor):
+            print "get ipmi sdr/sensor data info error"
+            logger.error("get ipmi data error")
+            return 0
     print "Start compare spec/ipmi sdr/sensor data..."
     sensor_index = 0
     # read ipmi list
@@ -108,15 +109,17 @@ def sdrandsensor_compare(spec_sdr, ipmi_sdr, spec_sensor, ipmi_sensor):
         # use sensor name get sdr values in spec
         try:
             spec_fru_each = spec_sdr[sensor_name]
-            spec_threshold_each = spec_sensor[sensor_name]
+            if spec_sensor and ipmi_sensor:
+                spec_threshold_each = spec_sensor[sensor_name]
         except KeyError as e:
             try:
                 # judge sensor name whether only because capitalized not same (all upper or all lower in spec)
-                if spec_sensor[sensor_name.upper()] or spec_sensor[sensor_name.lower()]:
+                if spec_sdr[sensor_name.upper()] or spec_sdr[sensor_name.lower()]:
                     logger.warning(sensor_name + "'s field ( Sensor name ): warning.")
                     fru_compare(ipmi_fru_each, spec_fru_each, sensor_name)
-                    threshold_compare(ipmi_sensor[sensor_index], spec_threshold_each, sensor_name)
-                    sensor_index += 1
+                    if spec_sensor and ipmi_sensor:
+                        threshold_compare(ipmi_sensor[sensor_index], spec_threshold_each, sensor_name)
+                        sensor_index += 1
             except KeyError:
                 logger.error("spec don't have " + sensor_name + " sensor_name. \n\
                         sensor number/entity id/sensor type/threshold not compare.\n")
@@ -127,9 +130,9 @@ def sdrandsensor_compare(spec_sdr, ipmi_sdr, spec_sensor, ipmi_sensor):
         # fru compare
         fru_compare(ipmi_fru_each, spec_fru_each, sensor_name)
 
-        # print "Start compare spec/ipmi sensor data..."
-        # compare threshold
-        threshold_compare(ipmi_sensor[sensor_index], spec_threshold_each, sensor_name)
-        sensor_index += 1
+        if spec_sensor and ipmi_sensor:
+            # compare threshold
+            threshold_compare(ipmi_sensor[sensor_index], spec_threshold_each, sensor_name)
+            sensor_index += 1
 
 
